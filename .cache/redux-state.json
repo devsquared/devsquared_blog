@@ -2077,12 +2077,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-20T02:38:09.785Z",
+      "buildTime": "2019-03-20T12:56:53.383Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "956ecde4e8ddb56aaa156428567d578c",
+        "contentDigest": "dd89c01bbcc67ff63c89751ca053e623",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2092,7 +2092,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "04c6ec585e3f9ea32447161efa75cbfa",
+        "contentDigest": "c4d9978adfb7c2b6ce7457ae2ed2d500",
         "type": "Directory",
         "description": "Directory \"blog\"",
         "owner": "gatsby-source-filesystem"
@@ -2104,7 +2104,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-02-02T17:19:47.361Z",
-      "accessTime": "2019-03-20T02:38:18.085Z",
+      "accessTime": "2019-03-20T12:56:58.831Z",
       "changeTime": "2019-02-02T18:03:44.272Z",
       "birthTime": "2019-01-24T03:43:42.573Z",
       "root": "/",
@@ -2122,11 +2122,11 @@
       "blksize": 4096,
       "ino": 12887470468,
       "blocks": 0,
-      "atimeMs": 1553049498084.6172,
+      "atimeMs": 1553086618830.6025,
       "mtimeMs": 1549127987361.3135,
       "ctimeMs": 1549130624272.071,
       "birthtimeMs": 1548301422572.9636,
-      "atime": "2019-03-20T02:38:18.085Z",
+      "atime": "2019-03-20T12:56:58.831Z",
       "mtime": "2019-02-02T17:19:47.361Z",
       "ctime": "2019-02-02T18:03:44.272Z",
       "birthtime": "2019-01-24T03:43:42.573Z"
@@ -2136,7 +2136,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d0020e38aaa9694780e2a1961a5e174d",
+        "contentDigest": "479ec25e3b592d4509819495668980d3",
         "type": "Directory",
         "description": "Directory \"blog/2019-02-02\"",
         "owner": "gatsby-source-filesystem"
@@ -2148,7 +2148,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-02-02T17:19:39.233Z",
-      "accessTime": "2019-03-20T02:38:18.087Z",
+      "accessTime": "2019-03-20T12:56:58.833Z",
       "changeTime": "2019-02-02T17:19:39.233Z",
       "birthTime": "2019-02-02T17:19:35.439Z",
       "root": "/",
@@ -2166,11 +2166,11 @@
       "blksize": 4096,
       "ino": 12887575489,
       "blocks": 0,
-      "atimeMs": 1553049498086.5354,
+      "atimeMs": 1553086618832.5217,
       "mtimeMs": 1549127979233.0818,
       "ctimeMs": 1549127979233.0818,
       "birthtimeMs": 1549127975438.6887,
-      "atime": "2019-03-20T02:38:18.087Z",
+      "atime": "2019-03-20T12:56:58.833Z",
       "mtime": "2019-02-02T17:19:39.233Z",
       "ctime": "2019-02-02T17:19:39.233Z",
       "birthtime": "2019-02-02T17:19:35.439Z"
@@ -2550,7 +2550,8 @@
       "MarkdownRemark": [
         null,
         "/",
-        "/blog"
+        "/blog",
+        null
       ]
     }
   },

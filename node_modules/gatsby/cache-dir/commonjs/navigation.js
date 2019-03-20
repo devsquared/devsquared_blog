@@ -1,5 +1,7 @@
 "use strict";
 
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 
 exports.__esModule = true;
@@ -11,7 +13,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _loader = _interopRequireDefault(require("./loader"));
+var _loader = _interopRequireWildcard(require("./loader"));
 
 var _redirects = _interopRequireDefault(require("./redirects.json"));
 
@@ -22,6 +24,8 @@ var _emitter = _interopRequireDefault(require("./emitter"));
 var _router = require("@reach/router");
 
 var _parsePath2 = _interopRequireDefault(require("./parse-path"));
+
+var _loadDirectlyOr = _interopRequireDefault(require("./load-directly-or-404"));
 
 // Convert to a map for faster lookup in maybeRedirect()
 const redirectMap = _redirects.default.reduce((map, redirect) => {
@@ -49,20 +53,18 @@ function maybeRedirect(pathname) {
   }
 }
 
-const onPreRouteUpdate = (location, prevLocation) => {
+const onPreRouteUpdate = location => {
   if (!maybeRedirect(location.pathname)) {
     (0, _apiRunnerBrowser.apiRunner)(`onPreRouteUpdate`, {
-      location,
-      prevLocation
+      location
     });
   }
 };
 
-const onRouteUpdate = (location, prevLocation) => {
+const onRouteUpdate = location => {
   if (!maybeRedirect(location.pathname)) {
     (0, _apiRunnerBrowser.apiRunner)(`onRouteUpdate`, {
-      location,
-      prevLocation
+      location
     }); // Temp hack while awaiting https://github.com/reach/router/issues/119
 
     window.__navigatingToLink = false;
@@ -84,15 +86,10 @@ const navigate = (to, options = {}) => {
   if (redirect) {
     to = redirect.toPath;
     pathname = (0, _parsePath2.default)(to).pathname;
-  } // If we had a service worker update, no matter the path, reload window and
-  // reset the pathname whitelist
+  } // If we had a service worker update, no matter the path, reload window
 
 
   if (window.GATSBY_SW_UPDATED) {
-    const controller = navigator.serviceWorker.controller;
-    controller.postMessage({
-      gatsbyApi: `resetWhitelist`
-    });
     window.location = pathname;
     return;
   } // Start a timer to wait for a second before transitioning and showing a
@@ -110,8 +107,13 @@ const navigate = (to, options = {}) => {
   }, 1000);
 
   _loader.default.getResourcesForPathname(pathname).then(pageResources => {
-    (0, _router.navigate)(to, options);
-    clearTimeout(timeoutId);
+    if ((!pageResources || pageResources.page.path === `/404.html`) && process.env.NODE_ENV === `production`) {
+      clearTimeout(timeoutId);
+      (0, _loadDirectlyOr.default)(pageResources, to).then(() => (0, _router.navigate)(to, options));
+    } else {
+      (0, _router.navigate)(to, options);
+      clearTimeout(timeoutId);
+    }
   });
 };
 
@@ -170,22 +172,22 @@ function init() {
 class RouteUpdates extends _react.default.Component {
   constructor(props) {
     super(props);
-    onPreRouteUpdate(props.location, null);
+    onPreRouteUpdate(props.location);
   }
 
   componentDidMount() {
-    onRouteUpdate(this.props.location, null);
+    onRouteUpdate(this.props.location);
   }
 
   componentDidUpdate(prevProps, prevState, shouldFireRouteUpdate) {
     if (shouldFireRouteUpdate) {
-      onRouteUpdate(this.props.location, prevProps.location);
+      onRouteUpdate(this.props.location);
     }
   }
 
   getSnapshotBeforeUpdate(prevProps) {
     if (this.props.location.pathname !== prevProps.location.pathname) {
-      onPreRouteUpdate(this.props.location, prevProps.location);
+      onPreRouteUpdate(this.props.location);
       return true;
     }
 
