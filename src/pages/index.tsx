@@ -94,13 +94,14 @@ export default class IndexPage extends React.Component<PageProps> {
               <HomepageContent>
                 <h2>About Me</h2>
                 <p>
-                  I love clean code, intuitive UI designs, good books, and sports. I have a wonderful wife and two great 
-                  dogs. In my free time, I enjoy long distance running, cycling, reading, and open source. Note that these
-                  lists are not exhaustive.
+                  Some of my interests include running, cycling, open source coding, being with my family, and exploring. 
+                  I love to read, sports, and stats - so you may see quite a lot of that here. On any given day, you will
+                  probably catch me near a computer, running, or grabbing a coffee!
                 </p>
                 <p>
-                  Some of my favorites in the world of software are machine learning, AWS cloud architecture, and automated
-                  testing. When I am working on freelance projects, I like to do machine learning and data visualizations. 
+                  Some of my favorite places to work and learn are machine learning, cloud computing/architectures, and UI/UX.
+                  I also have a budding interest in data visualization. I currently work in the middle of Oklahoma as a 
+                  full stack developer on a web application.
                 </p>
                 <hr />
                 <h2>Latest Blog</h2>
