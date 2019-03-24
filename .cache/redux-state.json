@@ -3,7 +3,7 @@
     "SitePage /dev-404-page/": {
       "path": "/dev-404-page/",
       "id": "SitePage /dev-404-page/",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
@@ -11,9 +11,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+    "Plugin dev-404-page": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby/dist/internal-plugins/dev-404-page",
-      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -38,17 +38,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "36aa81d90435ff13a50ff883888205fb",
+        "contentDigest": "ec809df93f14a9d5799009dba64e7ae3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+    "Plugin load-babel-config": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby/dist/internal-plugins/load-babel-config",
-      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "id": "Plugin load-babel-config",
       "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
@@ -73,17 +73,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7cee0a84e51888e12b1d73d21817268f",
+        "contentDigest": "87adbb63d3a76929d9a67d19c5cdc97d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+    "Plugin internal-data-bridge": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
-      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -109,17 +109,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bea1f7f2b8ecefb2ef5fbe1acc086b77",
+        "contentDigest": "8b736120863c2281a0f658f9a928832d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+    "Plugin prod-404": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby/dist/internal-plugins/prod-404",
-      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
@@ -144,17 +144,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "876f7186e5afe41a01e0f1ac70be7331",
+        "contentDigest": "edb77349e7460185c15078b21b3db82f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+    "Plugin query-runner": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
@@ -179,54 +179,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "77585ce64f3ab6d3308eb654378dbaca",
+        "contentDigest": "10b38ac0606cce98210fc3e9f163cbb9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
-      "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
-      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
-      "name": "webpack-theme-component-shadowing",
-      "version": "1.0.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateWebpackConfig"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
-      "packageJson": {
-        "name": "webpack-theme-component-shadowing",
-        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
-        "version": "1.0.0",
-        "main": "index.js",
-        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
-        "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "97d813dc24e430680761b1b0b4f6cec7",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+    "Plugin gatsby-plugin-react-helmet": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-react-helmet",
-      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.5",
+      "version": "3.0.0",
       "pluginOptions": {
         "plugins": []
       },
@@ -239,7 +204,7 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.5",
+        "version": "3.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -257,7 +222,10 @@
           "noscript",
           "style"
         ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -273,10 +241,6 @@
           {
             "name": "@babel/core",
             "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -296,19 +260,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0a8c1cae2c80a52e46a7e9f9793889a5",
+        "contentDigest": "f429091f9e9b444d278bcbef4482eeeb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "176dadcc-aa26-5c02-a651-88867760143b": {
+    "Plugin gatsby-plugin-styled-components": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-styled-components",
-      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "id": "Plugin gatsby-plugin-styled-components",
       "name": "gatsby-plugin-styled-components",
-      "version": "3.0.4",
+      "version": "3.0.0",
       "pluginOptions": {
         "plugins": []
       },
@@ -324,14 +288,17 @@
       "packageJson": {
         "name": "gatsby-plugin-styled-components",
         "description": "Gatsby plugin to add support for styled components",
-        "version": "3.0.4",
+        "version": "3.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "styled-components"
         ],
-        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -347,10 +314,6 @@
           {
             "name": "@babel/core",
             "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
           }
         ],
         "peerDependencies": [
@@ -360,7 +323,7 @@
           },
           {
             "name": "gatsby",
-            "version": ">=2.0.32"
+            "version": ">2.0.0-alpha"
           },
           {
             "name": "styled-components",
@@ -370,19 +333,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3c026143d2111d4ba38920e51cab4d11",
+        "contentDigest": "cf44ac6881c83ca4376adb7ce98b9c98",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+    "Plugin gatsby-plugin-offline": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-offline",
-      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "id": "Plugin gatsby-plugin-offline",
       "name": "gatsby-plugin-offline",
-      "version": "2.0.21",
+      "version": "2.0.7",
       "pluginOptions": {
         "plugins": []
       },
@@ -392,15 +355,15 @@
       ],
       "browserAPIs": [
         "registerServiceWorker",
-        "onServiceWorkerActive",
-        "onPostPrefetchPathname"
+        "onPostPrefetchPathname",
+        "onServiceWorkerActive"
       ],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-offline",
       "packageJson": {
         "name": "gatsby-plugin-offline",
         "description": "Gatsby plugin which sets up a site to be able to run offline",
-        "version": "2.0.21",
+        "version": "2.0.7",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -409,7 +372,10 @@
           "precache",
           "service-worker"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -421,16 +387,12 @@
             "version": "^1.0.0-rc.2"
           },
           {
-            "name": "idb-keyval",
-            "version": "^3.1.0"
-          },
-          {
             "name": "lodash",
             "version": "^4.17.10"
           },
           {
             "name": "workbox-build",
-            "version": "^3.6.3"
+            "version": "^3.4.1"
           }
         ],
         "devDependencies": [
@@ -443,10 +405,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -454,25 +412,25 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">=2.0.53"
+            "version": ">=2.0.20"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e8602ba9f94edacdafd7c8da71ddfaf8",
+        "contentDigest": "c85b35523abacfde5cd82672540cfa69",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "6baed434-a608-5e80-ba69-fa94fef95ec5": {
+    "Plugin gatsby-plugin-typescript": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-typescript",
-      "id": "6baed434-a608-5e80-ba69-fa94fef95ec5",
+      "id": "Plugin gatsby-plugin-typescript",
       "name": "gatsby-plugin-typescript",
-      "version": "2.0.3",
+      "version": "2.0.0",
       "pluginOptions": {
         "plugins": []
       },
@@ -487,14 +445,17 @@
       "packageJson": {
         "name": "gatsby-plugin-typescript",
         "description": "Adds TypeScript support to Gatsby",
-        "version": "2.0.3",
+        "version": "2.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "typescript"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -507,7 +468,7 @@
           },
           {
             "name": "babel-plugin-remove-graphql-queries",
-            "version": "^2.5.2"
+            "version": "^2.0.2-rc.3"
           }
         ],
         "devDependencies": [
@@ -518,10 +479,6 @@
           {
             "name": "@babel/core",
             "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -537,19 +494,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "42110da50b48b01db5b5d75c8ea2a4e1",
+        "contentDigest": "ae2c09f2fe644c3dead11e5943b6fcf8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
+    "Plugin gatsby-plugin-sass": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-sass",
-      "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
+      "id": "Plugin gatsby-plugin-sass",
       "name": "gatsby-plugin-sass",
-      "version": "2.0.7",
+      "version": "2.0.1",
       "pluginOptions": {
         "plugins": []
       },
@@ -562,7 +519,7 @@
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
-        "version": "2.0.7",
+        "version": "2.0.1",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -570,7 +527,10 @@
           "sass",
           "scss"
         ],
-        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -592,10 +552,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -613,21 +569,29 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6c2b098f75c4075d14bff5c9c88cbf1e",
+        "contentDigest": "c3aecddd6675e13fe77e9f358af74468",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "6ddae53f-07b7-5951-83e1-78af01ffdf93": {
+    "Plugin gatsby-plugin-manifest": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-manifest",
-      "id": "6ddae53f-07b7-5951-83e1-78af01ffdf93",
+      "id": "Plugin gatsby-plugin-manifest",
       "name": "gatsby-plugin-manifest",
-      "version": "2.0.13",
+      "version": "2.0.5",
       "pluginOptions": {
-        "plugins": []
+        "plugins": [],
+        "name": "Devin Ward | Software Developer",
+        "short_name": "Thoughts and Blogs from Devin Ward",
+        "description": "Landing Page and Blog Site for Devin Ward",
+        "start_url": "/",
+        "background_color": "#2b2e3c",
+        "theme_color": "#3498DB",
+        "display": "standalone",
+        "icon": "src/favicon.png"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -640,7 +604,7 @@
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.13",
+        "version": "2.0.5",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -651,7 +615,10 @@
           "progressive-web-app",
           "pwa"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -664,7 +631,7 @@
           },
           {
             "name": "sharp",
-            "version": "^0.21.0"
+            "version": "^0.20.2"
           }
         ],
         "devDependencies": [
@@ -675,10 +642,6 @@
           {
             "name": "@babel/core",
             "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -694,19 +657,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a8a9614b198ea8773ef2f77559524be8",
+        "contentDigest": "e6769da41e132415ca27b8339d5427f5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "ca2c6d45-3cbb-5520-81b0-744c9701d15c": {
+    "Plugin gatsby-plugin-catch-links": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-catch-links",
-      "id": "ca2c6d45-3cbb-5520-81b0-744c9701d15c",
+      "id": "Plugin gatsby-plugin-catch-links",
       "name": "gatsby-plugin-catch-links",
-      "version": "2.0.9",
+      "version": "2.0.5",
       "pluginOptions": {
         "plugins": []
       },
@@ -719,13 +682,16 @@
       "packageJson": {
         "name": "gatsby-plugin-catch-links",
         "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
-        "version": "2.0.9",
+        "version": "2.0.5",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -747,10 +713,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -764,19 +726,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "710896db8393cfd82eb411dadb70ea45",
+        "contentDigest": "737ca255f54daec911062f4fc5f84ac4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "9ccc7860-87fc-53f6-a439-0a4dc02836bd": {
+    "Plugin gatsby-plugin-sitemap": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-sitemap",
-      "id": "9ccc7860-87fc-53f6-a439-0a4dc02836bd",
+      "id": "Plugin gatsby-plugin-sitemap",
       "name": "gatsby-plugin-sitemap",
-      "version": "2.0.4",
+      "version": "2.0.1",
       "pluginOptions": {
         "plugins": []
       },
@@ -791,26 +753,20 @@
       "packageJson": {
         "name": "gatsby-plugin-sitemap",
         "description": "Gatsby plugin that automatically creates a sitemap for your site",
-        "version": "2.0.4",
+        "version": "2.0.1",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;",
+        "author": {
+          "name": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;"
+        },
         "license": "MIT",
         "dependencies": [
           {
             "name": "@babel/runtime",
             "version": "^7.0.0"
-          },
-          {
-            "name": "minimatch",
-            "version": "^3.0.4"
-          },
-          {
-            "name": "pify",
-            "version": "^3.0.0"
           },
           {
             "name": "sitemap",
@@ -827,10 +783,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -844,19 +796,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e209a5be8484218155821ea73bf15774",
+        "contentDigest": "aa92327b64553fda9ebd04eaff8acbe9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "0c7688ef-0ff5-529a-ab7c-7edcaf5c8ea2": {
+    "Plugin gatsby-plugin-lodash": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-lodash",
-      "id": "0c7688ef-0ff5-529a-ab7c-7edcaf5c8ea2",
+      "id": "Plugin gatsby-plugin-lodash",
       "name": "gatsby-plugin-lodash",
-      "version": "3.0.3",
+      "version": "3.0.1",
       "pluginOptions": {
         "plugins": []
       },
@@ -870,13 +822,16 @@
       "packageJson": {
         "name": "gatsby-plugin-lodash",
         "description": "Easy modular Lodash builds. Adds the Lodash webpack & Babel plugins to your Gatsby build",
-        "version": "3.0.3",
+        "version": "3.0.1",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -902,10 +857,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -919,19 +870,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e384c01775dc0180a9abea7443427818",
+        "contentDigest": "5fe7782934c9a788cc144e8b5e352c10",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "7b06f82f-cc3f-562c-bdcd-ee65ab6559bf": {
+    "Plugin gatsby-source-filesystem": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-source-filesystem",
-      "id": "7b06f82f-cc3f-562c-bdcd-ee65ab6559bf",
+      "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.17",
+      "version": "2.0.4",
       "pluginOptions": {
         "plugins": [],
         "name": "post",
@@ -947,12 +898,15 @@
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.17",
+        "version": "2.0.4",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -970,10 +924,6 @@
           {
             "name": "chokidar",
             "version": "^1.7.0"
-          },
-          {
-            "name": "file-type",
-            "version": "^10.2.0"
           },
           {
             "name": "fs-extra",
@@ -994,14 +944,6 @@
           {
             "name": "pretty-bytes",
             "version": "^4.0.2"
-          },
-          {
-            "name": "progress",
-            "version": "^1.1.8"
-          },
-          {
-            "name": "read-chunk",
-            "version": "^3.0.0"
           },
           {
             "name": "slash",
@@ -1026,10 +968,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -1043,19 +981,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ee90ac7af1ef17bc39b32f31eb3950c9",
+        "contentDigest": "2f9433f915ed83bb41a458e65bb534c9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "e109f9aa-b7be-5192-8a74-153a4f1af441": {
+    "Plugin gatsby-plugin-google-tagmanager": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-google-tagmanager",
-      "id": "e109f9aa-b7be-5192-8a74-153a4f1af441",
+      "id": "Plugin gatsby-plugin-google-tagmanager",
       "name": "gatsby-plugin-google-tagmanager",
-      "version": "2.0.7",
+      "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
         "id": "GTM-MVP42QK",
@@ -1070,7 +1008,7 @@
       "packageJson": {
         "name": "gatsby-plugin-google-tagmanager",
         "description": "Gatsby plugin to add google tagmanager onto a site",
-        "version": "2.0.7",
+        "version": "2.0.5",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -1078,7 +1016,10 @@
           "google analytics",
           "google tagmanager"
         ],
-        "author": "Thijs Koerselman <thijs@vauxlab.com>",
+        "author": {
+          "name": "Thijs Koerselman",
+          "email": "thijs@vauxlab.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1096,10 +1037,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -1113,24 +1050,24 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "09bcd13ce38de3c65009fccbe93f3c6b",
+        "contentDigest": "b84ba1cd10dc896de5db8f0abb405438",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "b7e678d7-bdee-5a95-a737-4d1f9410049a": {
+    "Plugin gatsby-transformer-remark": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-transformer-remark",
-      "id": "b7e678d7-bdee-5a95-a737-4d1f9410049a",
+      "id": "Plugin gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
-      "version": "2.2.0",
+      "version": "2.1.7",
       "pluginOptions": {
         "plugins": [
           {
             "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-remark-external-links",
-            "id": "5bee27b9-6073-5559-9b0f-cfd309340985",
+            "id": "Plugin gatsby-remark-external-links",
             "name": "gatsby-remark-external-links",
             "version": "0.0.4",
             "pluginOptions": {
@@ -1145,9 +1082,9 @@
           },
           {
             "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-remark-prismjs",
-            "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+            "id": "Plugin gatsby-remark-prismjs",
             "name": "gatsby-remark-prismjs",
-            "version": "3.2.0",
+            "version": "3.0.2",
             "pluginOptions": {
               "plugins": []
             },
@@ -1158,16 +1095,16 @@
           },
           {
             "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-remark-autolink-headers",
-            "id": "df380aaa-460e-51a2-8830-e6712dc1f436",
+            "id": "Plugin gatsby-remark-autolink-headers",
             "name": "gatsby-remark-autolink-headers",
-            "version": "2.0.12",
+            "version": "2.0.7",
             "pluginOptions": {
               "plugins": []
             },
             "nodeAPIs": [],
             "browserAPIs": [
-              "onInitialClientRender",
-              "shouldUpdateScroll"
+              "onClientEntry",
+              "onRouteUpdate"
             ],
             "ssrAPIs": [
               "onRenderBody"
@@ -1186,14 +1123,17 @@
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "2.2.0",
+        "version": "2.1.7",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "markdown",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1210,11 +1150,11 @@
           },
           {
             "name": "hast-util-raw",
-            "version": "^4.0.0"
+            "version": "^2.0.2"
           },
           {
             "name": "hast-util-to-html",
-            "version": "^4.0.0"
+            "version": "^3.0.0"
           },
           {
             "name": "lodash",
@@ -1283,10 +1223,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -1294,23 +1230,23 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": "^2.0.88"
+            "version": ">2.0.0-alpha"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "78cfd10581f4fd3755fff9124bd8484a",
+        "contentDigest": "8f30aae96e20a270899387efc52e5f6f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "5bee27b9-6073-5559-9b0f-cfd309340985": {
+    "Plugin gatsby-remark-external-links": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-remark-external-links",
-      "id": "5bee27b9-6073-5559-9b0f-cfd309340985",
+      "id": "Plugin gatsby-remark-external-links",
       "name": "gatsby-remark-external-links",
       "version": "0.0.4",
       "pluginOptions": {
@@ -1332,7 +1268,10 @@
           "gatsby-plugin",
           "remark"
         ],
-        "author": "Jimmy Longley <jimmylongley@gmail.com>",
+        "author": {
+          "name": "Jimmy Longley",
+          "email": "jimmylongley@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1378,19 +1317,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4db5558707a82b49dc3d9a91e8817cec",
+        "contentDigest": "de55d2bcb066d9cbb26d6af49c0d76ce",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "b8d3a2f5-5540-5699-b862-153e57b2c618": {
+    "Plugin gatsby-remark-prismjs": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-remark-prismjs",
-      "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+      "id": "Plugin gatsby-remark-prismjs",
       "name": "gatsby-remark-prismjs",
-      "version": "3.2.0",
+      "version": "3.0.2",
       "pluginOptions": {
         "plugins": []
       },
@@ -1401,7 +1340,7 @@
       "packageJson": {
         "name": "gatsby-remark-prismjs",
         "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
-        "version": "3.2.0",
+        "version": "3.0.2",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -1409,7 +1348,10 @@
           "prismjs",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1433,10 +1375,6 @@
           {
             "name": "@babel/core",
             "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -1464,26 +1402,26 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a69b09683096ef06bac1b97eef2c3606",
+        "contentDigest": "e2aa59969105e566bb9f704fe59ed1da",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "df380aaa-460e-51a2-8830-e6712dc1f436": {
+    "Plugin gatsby-remark-autolink-headers": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-remark-autolink-headers",
-      "id": "df380aaa-460e-51a2-8830-e6712dc1f436",
+      "id": "Plugin gatsby-remark-autolink-headers",
       "name": "gatsby-remark-autolink-headers",
-      "version": "2.0.12",
+      "version": "2.0.7",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
       "browserAPIs": [
-        "onInitialClientRender",
-        "shouldUpdateScroll"
+        "onClientEntry",
+        "onRouteUpdate"
       ],
       "ssrAPIs": [
         "onRenderBody"
@@ -1492,14 +1430,17 @@
       "packageJson": {
         "name": "gatsby-remark-autolink-headers",
         "description": "Gatsby plugin to autolink headers in markdown processed by Remark",
-        "version": "2.0.12",
+        "version": "2.0.7",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1529,10 +1470,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -1546,19 +1483,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "513ae2f4fdb4e71d045feefd5287eb42",
+        "contentDigest": "d0a5d722af05ace224c5e2b97f19c473",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "fb6fdc1e-0c8d-5a0e-afe1-5af93d02cf6d": {
+    "Plugin gatsby-plugin-typography": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-typography",
-      "id": "fb6fdc1e-0c8d-5a0e-afe1-5af93d02cf6d",
+      "id": "Plugin gatsby-plugin-typography",
       "name": "gatsby-plugin-typography",
-      "version": "2.2.5",
+      "version": "2.2.0",
       "pluginOptions": {
         "plugins": [],
         "pathToConfigModule": "src/utils/typography.ts"
@@ -1566,9 +1503,7 @@
       "nodeAPIs": [
         "onPreBootstrap"
       ],
-      "browserAPIs": [
-        "onClientEntry"
-      ],
+      "browserAPIs": [],
       "ssrAPIs": [
         "onRenderBody"
       ],
@@ -1576,7 +1511,7 @@
       "packageJson": {
         "name": "gatsby-plugin-typography",
         "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
-        "version": "2.2.5",
+        "version": "2.2.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -1584,7 +1519,10 @@
           "typography",
           "typography.js"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -1600,10 +1538,6 @@
           {
             "name": "@babel/core",
             "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -1627,106 +1561,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1775a49c159ede132de058799953d39c",
+        "contentDigest": "c8ef931f4a1a3ef36b3bcce892500b48",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "9a41e335-3c05-5122-9fe4-9fc114cbc45a": {
-      "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-manifest",
-      "id": "9a41e335-3c05-5122-9fe4-9fc114cbc45a",
-      "name": "gatsby-plugin-manifest",
-      "version": "2.0.13",
-      "pluginOptions": {
-        "plugins": [],
-        "name": "Devin Ward | Software Developer",
-        "short_name": "Thoughts and Blogs from Devin Ward",
-        "description": "Landing Page and Blog Site for Devin Ward",
-        "start_url": "/",
-        "background_color": "#2b2e3c",
-        "theme_color": "#3498DB",
-        "display": "standalone",
-        "icon": "src/favicon.png"
-      },
-      "nodeAPIs": [
-        "onPostBootstrap"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-manifest",
-      "packageJson": {
-        "name": "gatsby-plugin-manifest",
-        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.13",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "favicon",
-          "icons",
-          "manifest.webmanifest",
-          "progressive-web-app",
-          "pwa"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.21.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "2f3b059ca6288922ed307fef8a087a0f",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+    "Plugin default-site-plugin": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog",
-      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "25ca15d7560af46598011af7e88245ac",
       "pluginOptions": {
@@ -1752,6 +1597,10 @@
         "author": "Majid Hajian ( mhadaily@gmail.com )",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "gatsby-cli",
+            "version": "^2.4.16"
+          },
           {
             "name": "gatsby-plugin-google-tagmanager",
             "version": "^2.0.5"
@@ -1963,19 +1812,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f43b29e3ffb48fd03c1998465409ba22",
+        "contentDigest": "a476cc3e1e0c3bbd1f001fea850e2430",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "1b8e5f99-6371-58e7-a466-78196868cbc7": {
+    "Plugin gatsby-plugin-page-creator": {
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-page-creator",
-      "id": "1b8e5f99-6371-58e7-a466-78196868cbc7",
+      "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.5",
+      "version": "2.0.1",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/Devin/Documents/GitHub/devsquared_blog/src/pages",
@@ -1990,13 +1839,16 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.5",
+        "version": "2.0.1",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -2024,10 +1876,6 @@
             "version": "^4.17.10"
           },
           {
-            "name": "micromatch",
-            "version": "^3.1.10"
-          },
-          {
             "name": "parse-filepath",
             "version": "^1.0.1"
           },
@@ -2046,10 +1894,6 @@
             "version": "^7.0.0"
           },
           {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
             "version": "^5.0.5"
           }
@@ -2063,10 +1907,10 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7d9d9b9177e953706b112dff69fb1465",
+        "contentDigest": "11d8c36d70b0bcc2700116036ad5b1e6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2077,12 +1921,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-20T12:56:53.383Z",
+      "buildTime": "2019-03-24T05:26:45.448Z",
       "id": "Site",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dd89c01bbcc67ff63c89751ca053e623",
+        "contentDigest": "8c057d4f8c00002f57cecb1b9e537c84",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2090,9 +1934,9 @@
     "5bc042c1-7e48-51d5-8848-4c338f1e3264": {
       "id": "5bc042c1-7e48-51d5-8848-4c338f1e3264",
       "children": [],
-      "parent": null,
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c4d9978adfb7c2b6ce7457ae2ed2d500",
+        "contentDigest": "98314fe7df4528470784535d5169ab39",
         "type": "Directory",
         "description": "Directory \"blog\"",
         "owner": "gatsby-source-filesystem"
@@ -2101,11 +1945,11 @@
       "absolutePath": "/Users/Devin/Documents/GitHub/devsquared_blog/blog",
       "relativePath": "",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2019-02-02T17:19:47.361Z",
-      "accessTime": "2019-03-20T12:56:58.831Z",
-      "changeTime": "2019-02-02T18:03:44.272Z",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-03-24T05:26:23.558Z",
+      "accessTime": "2019-03-24T05:26:53.916Z",
+      "changeTime": "2019-03-24T05:26:23.558Z",
       "birthTime": "2019-01-24T03:43:42.573Z",
       "root": "/",
       "dir": "/Users/Devin/Documents/GitHub/devsquared_blog",
@@ -2115,28 +1959,28 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 5,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 12887470468,
       "blocks": 0,
-      "atimeMs": 1553086618830.6025,
-      "mtimeMs": 1549127987361.3135,
-      "ctimeMs": 1549130624272.071,
+      "atimeMs": 1553405213915.8381,
+      "mtimeMs": 1553405183557.9094,
+      "ctimeMs": 1553405183557.9094,
       "birthtimeMs": 1548301422572.9636,
-      "atime": "2019-03-20T12:56:58.831Z",
-      "mtime": "2019-02-02T17:19:47.361Z",
-      "ctime": "2019-02-02T18:03:44.272Z",
+      "atime": "2019-03-24T05:26:53.916Z",
+      "mtime": "2019-03-24T05:26:23.558Z",
+      "ctime": "2019-03-24T05:26:23.558Z",
       "birthtime": "2019-01-24T03:43:42.573Z"
     },
     "bc782b18-fb5a-5fd7-ab64-0e9a4a2592ae": {
       "id": "bc782b18-fb5a-5fd7-ab64-0e9a4a2592ae",
       "children": [],
-      "parent": null,
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "479ec25e3b592d4509819495668980d3",
+        "contentDigest": "51156bd9645720f1a523b04444ecc0ef",
         "type": "Directory",
         "description": "Directory \"blog/2019-02-02\"",
         "owner": "gatsby-source-filesystem"
@@ -2148,7 +1992,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-02-02T17:19:39.233Z",
-      "accessTime": "2019-03-20T12:56:58.833Z",
+      "accessTime": "2019-03-24T05:26:53.919Z",
       "changeTime": "2019-02-02T17:19:39.233Z",
       "birthTime": "2019-02-02T17:19:35.439Z",
       "root": "/",
@@ -2166,21 +2010,65 @@
       "blksize": 4096,
       "ino": 12887575489,
       "blocks": 0,
-      "atimeMs": 1553086618832.5217,
+      "atimeMs": 1553405213918.695,
       "mtimeMs": 1549127979233.0818,
       "ctimeMs": 1549127979233.0818,
       "birthtimeMs": 1549127975438.6887,
-      "atime": "2019-03-20T12:56:58.833Z",
+      "atime": "2019-03-24T05:26:53.919Z",
       "mtime": "2019-02-02T17:19:39.233Z",
       "ctime": "2019-02-02T17:19:39.233Z",
       "birthtime": "2019-02-02T17:19:35.439Z"
+    },
+    "9f260b4f-002e-5d5b-afb8-563957e315f1": {
+      "id": "9f260b4f-002e-5d5b-afb8-563957e315f1",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "393911978b641dfc252de69c6e0f053d",
+        "type": "Directory",
+        "description": "Directory \"blog/2019-03-24\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "post",
+      "absolutePath": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-03-24",
+      "relativePath": "2019-03-24",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-03-24T05:26:28.312Z",
+      "accessTime": "2019-03-24T05:26:53.919Z",
+      "changeTime": "2019-03-24T05:26:28.312Z",
+      "birthTime": "2019-03-24T05:25:59.429Z",
+      "root": "/",
+      "dir": "/Users/Devin/Documents/GitHub/devsquared_blog/blog",
+      "base": "2019-03-24",
+      "ext": "",
+      "name": "2019-03-24",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888130913,
+      "blocks": 0,
+      "atimeMs": 1553405213918.6528,
+      "mtimeMs": 1553405188312.2412,
+      "ctimeMs": 1553405188312.2412,
+      "birthtimeMs": 1553405159428.6538,
+      "atime": "2019-03-24T05:26:53.919Z",
+      "mtime": "2019-03-24T05:26:28.312Z",
+      "ctime": "2019-03-24T05:26:28.312Z",
+      "birthtime": "2019-03-24T05:25:59.429Z"
     },
     "ecfac05a-2a38-5de9-bfd5-2a4305334eeb": {
       "id": "ecfac05a-2a38-5de9-bfd5-2a4305334eeb",
       "children": [
         "cdcf3898-ecb3-588b-9a00-688df09f08e0"
       ],
-      "parent": null,
+      "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "9b8b8322bc0ea5df4087ff4567b97918",
         "type": "File",
@@ -2195,8 +2083,8 @@
       "size": 619,
       "prettySize": "619 B",
       "modifiedTime": "2019-02-02T17:32:12.352Z",
-      "accessTime": "2019-02-02T18:04:45.999Z",
-      "changeTime": "2019-02-02T17:32:12.352Z",
+      "accessTime": "2019-03-24T05:23:49.595Z",
+      "changeTime": "2019-03-24T05:23:48.683Z",
       "birthTime": "2019-02-02T17:19:16.429Z",
       "root": "/",
       "dir": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-02-02",
@@ -2213,14 +2101,61 @@
       "blksize": 4096,
       "ino": 12887575449,
       "blocks": 8,
-      "atimeMs": 1549130685999.0251,
+      "atimeMs": 1553405029594.6995,
       "mtimeMs": 1549128732352.1035,
-      "ctimeMs": 1549128732352.1035,
+      "ctimeMs": 1553405028683.4944,
       "birthtimeMs": 1549127956428.8372,
-      "atime": "2019-02-02T18:04:45.999Z",
+      "atime": "2019-03-24T05:23:49.595Z",
       "mtime": "2019-02-02T17:32:12.352Z",
-      "ctime": "2019-02-02T17:32:12.352Z",
+      "ctime": "2019-03-24T05:23:48.683Z",
       "birthtime": "2019-02-02T17:19:16.429Z"
+    },
+    "29a96e94-1307-5a43-a0b1-ae93d59a71b8": {
+      "id": "29a96e94-1307-5a43-a0b1-ae93d59a71b8",
+      "children": [
+        "44dcf995-5911-5f51-8feb-3588b3a11c04"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c5144378e62bd06740a4ae68c9f1854f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"blog/2019-03-24/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "post",
+      "absolutePath": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-03-24/index.md",
+      "relativePath": "2019-03-24/index.md",
+      "extension": "md",
+      "size": 10073,
+      "prettySize": "10.1 kB",
+      "modifiedTime": "2019-03-24T05:25:29.133Z",
+      "accessTime": "2019-03-24T05:24:13.092Z",
+      "changeTime": "2019-03-24T05:26:28.312Z",
+      "birthTime": "2019-03-24T05:23:05.872Z",
+      "root": "/",
+      "dir": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-03-24",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2019-03-24",
+      "dev": 16777220,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888130602,
+      "blocks": 24,
+      "atimeMs": 1553405053092.255,
+      "mtimeMs": 1553405129133.0017,
+      "ctimeMs": 1553405188312.241,
+      "birthtimeMs": 1553404985872.1978,
+      "atime": "2019-03-24T05:24:13.092Z",
+      "mtime": "2019-03-24T05:25:29.133Z",
+      "ctime": "2019-03-24T05:26:28.312Z",
+      "birthtime": "2019-03-24T05:23:05.872Z"
     },
     "cdcf3898-ecb3-588b-9a00-688df09f08e0": {
       "id": "cdcf3898-ecb3-588b-9a00-688df09f08e0",
@@ -2229,7 +2164,7 @@
       "internal": {
         "content": "\nBuilt a new blog with Gatsby.js and a great starter. Here I plan to do book\nreviews, tech posts, and much more! \n\n## A little bit about me!\nI am a software developer currently working in Norman, OK. I graduated from \nthe University of Oklahoma where I studied and earned a BS in Mathematics. \nI enjoy long distance running, cycling, reading, and coffee. In the context of \nsoftware development, I enjoy automated testing, machine learning, and \nlearning in general. \n\nLet's be friends!\n\nCheers!\n",
         "type": "MarkdownRemark",
-        "contentDigest": "ec4d1dd16925d34b1eade544cadec310",
+        "contentDigest": "cf94183fe9de80a02b760437f1720c82",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2242,13 +2177,44 @@
         "tags": [
           "Coding"
         ],
-        "banner": "/assets/bg/4.jpg"
+        "banner": "/assets/bg/4.jpg",
+        "_PARENT": "ecfac05a-2a38-5de9-bfd5-2a4305334eeb"
       },
       "excerpt": "",
       "rawMarkdownBody": "\nBuilt a new blog with Gatsby.js and a great starter. Here I plan to do book\nreviews, tech posts, and much more! \n\n## A little bit about me!\nI am a software developer currently working in Norman, OK. I graduated from \nthe University of Oklahoma where I studied and earned a BS in Mathematics. \nI enjoy long distance running, cycling, reading, and coffee. In the context of \nsoftware development, I enjoy automated testing, machine learning, and \nlearning in general. \n\nLet's be friends!\n\nCheers!\n",
       "fileAbsolutePath": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-02-02/index.md",
       "fields": {
         "slug": "hello-world"
+      }
+    },
+    "44dcf995-5911-5f51-8feb-3588b3a11c04": {
+      "id": "44dcf995-5911-5f51-8feb-3588b3a11c04",
+      "children": [],
+      "parent": "29a96e94-1307-5a43-a0b1-ae93d59a71b8",
+      "internal": {
+        "content": "\r\nI attended DevNexus 2019! This Java conference has been held yearly in Atlanta for quite a few years now.  It was great to explore a new city (albeit lightly), hang out amongst a lot of other software developers, and learn a lot for a few days. The conference this year seemed to have a few major themes: cloud-forward everything, evolving architecture, and continuing to move towards functional programming. In this post, I roundup and recap a lot of my trip.\r\n\r\nKeep in mind that I will be going much further in depth into a lot of these topics in the near future with talks, blog posts, and tutorials. If you do not get all the detail or information you want from these brief explanations, stick around. Further, feel free to reach out to me on [Twitter](https://twitter.com/devissquared) if you would like more info or are particularly interested in a certain topic.\r\n\r\nAlso I try to give links to any relevant information that I can within the content. Some of it are links to videos of the presentations at other conferences. The recordings for DevNexus has not yet been made available.\r\n\r\n## Goals Prior to Attending\r\n\r\nI do want to take a second and outline some of the goals that I had going into the conference. The last one is a goal of mine all of the time.\r\n\r\n- Learn about moving legacy code to newer architectures\r\n- Learn all the new hotness with serverless, cloud-native functions, and similar **buzzwords**\r\n- Learn about Groovy to help some of our testing efforts at work\r\n- Eat good food (an obvious goal for visiting any place, especially a new one)\r\n\r\n## General Thoughts\r\n\r\nFrom the moment that the conference started, I was having a great time. The venue was fairly nice, which was fine considering it was moved here as a backup due to the Super Bowl being held in Atlanta only a month or so before. Only complaint here is that the vendor booths were crammed into a smaller hallway than seemed necessary with a wide hall close by. The keynote stage was really well done with 6 screens so that nobody missed a thing. And I had coffee provided every morning and afternoon, which is always a great thing.\r\n\r\n### Keynotes \r\n\r\nThe keynotes were all great. Three in total:\r\n\r\n- The first one given by [Venkat Subramaniam](https://twitter.com/venkat_s) had a great comparison in it - Imperative is to Functional as wave is to particle when talking about light. Meaning that rather than argue which is better (imperative or functional) when talking about approaches to programming, why not think of it as a duality like the [wave-particle duality](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality) of light? I think that this was nice to hear after recently hearing coworkers argue back and forth on the two approaches' behalf. Both have issues when left by themselves (not the coworkers, the schools of thought), but the amount of either that is deemed best has long been the question. Do I write X in this approach even though it feels long, sloppy, and hard to read? Or, do I write Y in this other approach though it feels disconnected, complex, and difficult to write? The answer seems to be in the middle. \r\n- The next given by the CTO of ThoughtWorks, [Rebecca Parsons](https://www.thoughtworks.com/profiles/rebecca-parsons), was also very interesting and well-done. Let me tell you that one of my favorite parts of this talk was the design of the slide deck. Crisp, all-white slides with single lines of black text along with all-black title slides that had a single, thick-weighted white title; images took up a separate slide without any other content. It was so good that that night I created a custom slide theme after it. The talk itself was about evolutionary architecture and getting your application there. She talked about applying a fitness function to your architecture with which to constantly measure your applications health and gain insights into what needs to be done. This fitness function created with multiple \"-ilities\" (maintainability, testability, scalability, etc), but - crucially - not all of the \"-ilities\". Also priorities on what needs to be fixed and done first. I enjoyed hearing this talk as I have never applied this kind of thinking to architecture.\r\n- The third was one of my favorites from the entire weekend. [Leadership Guide for the Reluctant Leader](https://www.youtube.com/watch?v=0h5X5UKWao8&t=2559s) was a great talk about being a better coworker and becoming a leader. Though this talk had nothing technical in it, it was great to hear [David Neal](https://twitter.com/reverentgeek) give his experience of climbing up to leadership roles and some of the pains and awkwardness that came about. I highly recommend both following him on Twitter and checking at his talk on Youtube. Not only was he a great presenter but he also draws all of his slides. Was a great kickoff to the second day of presentations with plenty of good laughs.\r\n\r\n### Day One Highlights\r\n\r\nI was really interested to attend presentations as this was my first time to be in person at a conference rather than just behind a video of it. My favorite presentations were as follows:\r\n\r\n- A developer and dev advocate from IBM, [gcharters](https://twitter.com/gcharters) and [Steve Poole](https://twitter.com/spoole167) respectively, gave a talk on cloud native Java and a bit about serverless technology. This talk was the first that I had learned about [Open Liberty](https://openliberty.io/) and first I had seen [IBM Cloud](https://www.ibm.com/cloud/) in use. The talk was very informative and came with a tutorial (which is huge brownie points from me). If you stopped by the IBM booth at the conference, you could mess around with all of the things talked about in the talk and earn a free shirt (best believe I did that!). The other thing that I really appreciated from this talk was that these were potential solutions that one could explore, though serverless is not the answer for every problem. This was a little refreshing after hearing (what seemed like) a thousand conversations of how attendees were going to move from a [Monolith](https://en.wikipedia.org/wiki/Monolithic_application) to [Serverless](https://www.serverlessops.io/what-is-serverless) when they got back to work.\r\n- A [technique](https://github.com/mikestowe/REST-API-Multiple-Request-Chaining) for chaining REST calls together was unveiled in another talk. The talk went over some of the issues that a lot of API architectures have had as we have progressed - think SOAP, REST, GraphQL. [Mike](https://twitter.com/mikegstowe) did a great job of talking about some of each API's strengths/weaknesses and use cases. \r\n- My favorite talk of day one had to have been [Badass 101](https://www.youtube.com/watch?v=I9SqEvUOAoM&t=448s). This talk had the best abstract (simply a paragraph explaining something to the effect of Chuck Norris not providing an abstract but we should attend to avoid potentially catching a roundhouse kick to the face) and then great content. This talk covered a lot of areas of the concept of \"soft skills\", though I prefer we call them people skills (or human skills, as that's what they are). I recommend that you watch this talk and be a badass!\r\n\r\nI also went to a local restaurant called Murph's for lunch. And let me tell you that it has a great buffalo chicken sandwich and fries. I love sports bars (probably because I am one with sports and beer is literally my blood), so this place hit the spot. Later in the day, I went to another sports bar in Atlanta to try and catch the Atlanta Hawks game and fellow Sooner Trae Young. However, the bar did not put the game on any of the TVs, I was very sad, and, therefore, I do not want to name this bar.\r\n\r\n### Day Two Highlights\r\n\r\nDay two was the day that I was expecting everybody to be tired and sluggish. However, I was delightfully surprised starting with the keynote in the morning. The talks throughout day two seemed to go up and down - one would be good and the next would be pretty eh. Most seemed ready to get to the big giveaway at the end of the day. That day gave me two good talks:\r\n\r\n- One of the more applicable talks to my work was a talk on Architectures and moving from Monolith to Microservices and maybe onto Serverless. I particularly liked the way that this was organized. [Alberto Salazar](https://twitter.com/betoSalazar) walked through the process of moving (sometimes painfully slowly) from a Monolith to Microservices. He also provided a great [guide](https://github.com/lasalazarr/guide-monolithic-to-microservices) to work through. \r\n- The talk that I got the most out of was [Burr Sutter's](https://twitter.com/burrsutter) talk on cloud native Java with [Knative](https://cloud.google.com/knative/). First of all, the slide deck, pages of documentation, and plenty of tutorials were given to those in attendance (obvious or not, every presenter needs to make a habit of doing this). This meant that during the presentation, I could sit back and enjoy the show. Burr moved quickly and filled our time with loads of information. This was what I worked on after the second day. Look out for a blog post and a talk coming soon on this topic.\r\n\r\nMurph's was so good that I returned there for day two's lunch and had a burger and more local beer - both very good. For my later meal, I tried out Blaze Pizza and was super impressed. Lebron knows where to invest his money.\r\n\r\n\r\n\r\n## Conclusion\r\n\r\nI had a lot of fun at my first dev conference - DevNexus 2019 in Atlanta. I learned a lot and now have plenty of new toys to tinker with. My loot haul included 3 t-shirts, 3 pairs of socks, an infinite amount of stickers, and a bottle of hand sanitizer. The food was all very good. The only complaint was that an Atlanta sports bar did not show an Atlanta sports team playing in Atlanta. \r\n\r\nPosts to come as follow up for a more in-depth dive into some of the content that I absorbed. \r\n\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1296a289116e06f6b492a057945de6a9",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "My First Dev Conference - 2019 DevNexus",
+        "date": "2019-03-24T22:16:03.284Z",
+        "category": "Coding",
+        "tags": [
+          "Coding"
+        ],
+        "banner": "/assets/bg/1.jpg",
+        "_PARENT": "29a96e94-1307-5a43-a0b1-ae93d59a71b8"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nI attended DevNexus 2019! This Java conference has been held yearly in Atlanta for quite a few years now.  It was great to explore a new city (albeit lightly), hang out amongst a lot of other software developers, and learn a lot for a few days. The conference this year seemed to have a few major themes: cloud-forward everything, evolving architecture, and continuing to move towards functional programming. In this post, I roundup and recap a lot of my trip.\r\n\r\nKeep in mind that I will be going much further in depth into a lot of these topics in the near future with talks, blog posts, and tutorials. If you do not get all the detail or information you want from these brief explanations, stick around. Further, feel free to reach out to me on [Twitter](https://twitter.com/devissquared) if you would like more info or are particularly interested in a certain topic.\r\n\r\nAlso I try to give links to any relevant information that I can within the content. Some of it are links to videos of the presentations at other conferences. The recordings for DevNexus has not yet been made available.\r\n\r\n## Goals Prior to Attending\r\n\r\nI do want to take a second and outline some of the goals that I had going into the conference. The last one is a goal of mine all of the time.\r\n\r\n- Learn about moving legacy code to newer architectures\r\n- Learn all the new hotness with serverless, cloud-native functions, and similar **buzzwords**\r\n- Learn about Groovy to help some of our testing efforts at work\r\n- Eat good food (an obvious goal for visiting any place, especially a new one)\r\n\r\n## General Thoughts\r\n\r\nFrom the moment that the conference started, I was having a great time. The venue was fairly nice, which was fine considering it was moved here as a backup due to the Super Bowl being held in Atlanta only a month or so before. Only complaint here is that the vendor booths were crammed into a smaller hallway than seemed necessary with a wide hall close by. The keynote stage was really well done with 6 screens so that nobody missed a thing. And I had coffee provided every morning and afternoon, which is always a great thing.\r\n\r\n### Keynotes \r\n\r\nThe keynotes were all great. Three in total:\r\n\r\n- The first one given by [Venkat Subramaniam](https://twitter.com/venkat_s) had a great comparison in it - Imperative is to Functional as wave is to particle when talking about light. Meaning that rather than argue which is better (imperative or functional) when talking about approaches to programming, why not think of it as a duality like the [wave-particle duality](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality) of light? I think that this was nice to hear after recently hearing coworkers argue back and forth on the two approaches' behalf. Both have issues when left by themselves (not the coworkers, the schools of thought), but the amount of either that is deemed best has long been the question. Do I write X in this approach even though it feels long, sloppy, and hard to read? Or, do I write Y in this other approach though it feels disconnected, complex, and difficult to write? The answer seems to be in the middle. \r\n- The next given by the CTO of ThoughtWorks, [Rebecca Parsons](https://www.thoughtworks.com/profiles/rebecca-parsons), was also very interesting and well-done. Let me tell you that one of my favorite parts of this talk was the design of the slide deck. Crisp, all-white slides with single lines of black text along with all-black title slides that had a single, thick-weighted white title; images took up a separate slide without any other content. It was so good that that night I created a custom slide theme after it. The talk itself was about evolutionary architecture and getting your application there. She talked about applying a fitness function to your architecture with which to constantly measure your applications health and gain insights into what needs to be done. This fitness function created with multiple \"-ilities\" (maintainability, testability, scalability, etc), but - crucially - not all of the \"-ilities\". Also priorities on what needs to be fixed and done first. I enjoyed hearing this talk as I have never applied this kind of thinking to architecture.\r\n- The third was one of my favorites from the entire weekend. [Leadership Guide for the Reluctant Leader](https://www.youtube.com/watch?v=0h5X5UKWao8&t=2559s) was a great talk about being a better coworker and becoming a leader. Though this talk had nothing technical in it, it was great to hear [David Neal](https://twitter.com/reverentgeek) give his experience of climbing up to leadership roles and some of the pains and awkwardness that came about. I highly recommend both following him on Twitter and checking at his talk on Youtube. Not only was he a great presenter but he also draws all of his slides. Was a great kickoff to the second day of presentations with plenty of good laughs.\r\n\r\n### Day One Highlights\r\n\r\nI was really interested to attend presentations as this was my first time to be in person at a conference rather than just behind a video of it. My favorite presentations were as follows:\r\n\r\n- A developer and dev advocate from IBM, [gcharters](https://twitter.com/gcharters) and [Steve Poole](https://twitter.com/spoole167) respectively, gave a talk on cloud native Java and a bit about serverless technology. This talk was the first that I had learned about [Open Liberty](https://openliberty.io/) and first I had seen [IBM Cloud](https://www.ibm.com/cloud/) in use. The talk was very informative and came with a tutorial (which is huge brownie points from me). If you stopped by the IBM booth at the conference, you could mess around with all of the things talked about in the talk and earn a free shirt (best believe I did that!). The other thing that I really appreciated from this talk was that these were potential solutions that one could explore, though serverless is not the answer for every problem. This was a little refreshing after hearing (what seemed like) a thousand conversations of how attendees were going to move from a [Monolith](https://en.wikipedia.org/wiki/Monolithic_application) to [Serverless](https://www.serverlessops.io/what-is-serverless) when they got back to work.\r\n- A [technique](https://github.com/mikestowe/REST-API-Multiple-Request-Chaining) for chaining REST calls together was unveiled in another talk. The talk went over some of the issues that a lot of API architectures have had as we have progressed - think SOAP, REST, GraphQL. [Mike](https://twitter.com/mikegstowe) did a great job of talking about some of each API's strengths/weaknesses and use cases. \r\n- My favorite talk of day one had to have been [Badass 101](https://www.youtube.com/watch?v=I9SqEvUOAoM&t=448s). This talk had the best abstract (simply a paragraph explaining something to the effect of Chuck Norris not providing an abstract but we should attend to avoid potentially catching a roundhouse kick to the face) and then great content. This talk covered a lot of areas of the concept of \"soft skills\", though I prefer we call them people skills (or human skills, as that's what they are). I recommend that you watch this talk and be a badass!\r\n\r\nI also went to a local restaurant called Murph's for lunch. And let me tell you that it has a great buffalo chicken sandwich and fries. I love sports bars (probably because I am one with sports and beer is literally my blood), so this place hit the spot. Later in the day, I went to another sports bar in Atlanta to try and catch the Atlanta Hawks game and fellow Sooner Trae Young. However, the bar did not put the game on any of the TVs, I was very sad, and, therefore, I do not want to name this bar.\r\n\r\n### Day Two Highlights\r\n\r\nDay two was the day that I was expecting everybody to be tired and sluggish. However, I was delightfully surprised starting with the keynote in the morning. The talks throughout day two seemed to go up and down - one would be good and the next would be pretty eh. Most seemed ready to get to the big giveaway at the end of the day. That day gave me two good talks:\r\n\r\n- One of the more applicable talks to my work was a talk on Architectures and moving from Monolith to Microservices and maybe onto Serverless. I particularly liked the way that this was organized. [Alberto Salazar](https://twitter.com/betoSalazar) walked through the process of moving (sometimes painfully slowly) from a Monolith to Microservices. He also provided a great [guide](https://github.com/lasalazarr/guide-monolithic-to-microservices) to work through. \r\n- The talk that I got the most out of was [Burr Sutter's](https://twitter.com/burrsutter) talk on cloud native Java with [Knative](https://cloud.google.com/knative/). First of all, the slide deck, pages of documentation, and plenty of tutorials were given to those in attendance (obvious or not, every presenter needs to make a habit of doing this). This meant that during the presentation, I could sit back and enjoy the show. Burr moved quickly and filled our time with loads of information. This was what I worked on after the second day. Look out for a blog post and a talk coming soon on this topic.\r\n\r\nMurph's was so good that I returned there for day two's lunch and had a burger and more local beer - both very good. For my later meal, I tried out Blaze Pizza and was super impressed. Lebron knows where to invest his money.\r\n\r\n\r\n\r\n## Conclusion\r\n\r\nI had a lot of fun at my first dev conference - DevNexus 2019 in Atlanta. I learned a lot and now have plenty of new toys to tinker with. My loot haul included 3 t-shirts, 3 pairs of socks, an infinite amount of stickers, and a bottle of hand sanitizer. The food was all very good. The only complaint was that an Atlanta sports bar did not show an Atlanta sports team playing in Atlanta. \r\n\r\nPosts to come as follow up for a more in-depth dive into some of the content that I absorbed. \r\n\r\n",
+      "fileAbsolutePath": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-03-24/index.md",
+      "fields": {
+        "slug": "my-first-dev-conference-2019-dev-nexus"
       }
     },
     "SitePage /offline-plugin-app-shell-fallback/": {
@@ -2258,16 +2224,16 @@
       "component": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-offline/app-shell.js",
       "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
       "context": {},
-      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-offline/app-shell.js",
       "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d996495938906ae2fba509e38d0f4d01",
-        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+        "contentDigest": "8bbf38bd59e5fb8b592ac7dfa0945e43",
+        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -2283,16 +2249,16 @@
         "totalPages": 1,
         "currentPage": 1
       },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Blog.tsx",
       "id": "SitePage /blog",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "165152e522608ed9af90b60444d453a1",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "contentDigest": "b708b6b6cc1d4f81bd6d96e02884702f",
+        "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
@@ -2307,16 +2273,16 @@
           "Coding"
         ]
       },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/AllCategory.tsx",
       "id": "SitePage /categories",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3325c0b4a8b92b604b40f852b700f082",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "contentDigest": "a2d2e6cb728d4685f8906beefe4dfd97",
+        "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
@@ -2329,8 +2295,26 @@
       "context": {
         "posts": [
           {
+            "excerpt": "I attended DevNexus 2019! This Java conference has been held yearly in Atlanta for quite a few years now.  It was great to explore a new city (albeit lightly), hang out amongst a lot of other software developers, and learn a lot for a few days. The…",
+            "html": "<p>I attended DevNexus 2019! This Java conference has been held yearly in Atlanta for quite a few years now.  It was great to explore a new city (albeit lightly), hang out amongst a lot of other software developers, and learn a lot for a few days. The conference this year seemed to have a few major themes: cloud-forward everything, evolving architecture, and continuing to move towards functional programming. In this post, I roundup and recap a lot of my trip.</p>\n<p>Keep in mind that I will be going much further in depth into a lot of these topics in the near future with talks, blog posts, and tutorials. If you do not get all the detail or information you want from these brief explanations, stick around. Further, feel free to reach out to me on <a href=\"https://twitter.com/devissquared\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Twitter</a> if you would like more info or are particularly interested in a certain topic.</p>\n<p>Also I try to give links to any relevant information that I can within the content. Some of it are links to videos of the presentations at other conferences. The recordings for DevNexus has not yet been made available.</p>\n<h2 id=\"goals-prior-to-attending\"><a href=\"#goals-prior-to-attending\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Goals Prior to Attending</h2>\n<p>I do want to take a second and outline some of the goals that I had going into the conference. The last one is a goal of mine all of the time.</p>\n<ul>\n<li>Learn about moving legacy code to newer architectures</li>\n<li>Learn all the new hotness with serverless, cloud-native functions, and similar <strong>buzzwords</strong></li>\n<li>Learn about Groovy to help some of our testing efforts at work</li>\n<li>Eat good food (an obvious goal for visiting any place, especially a new one)</li>\n</ul>\n<h2 id=\"general-thoughts\"><a href=\"#general-thoughts\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>General Thoughts</h2>\n<p>From the moment that the conference started, I was having a great time. The venue was fairly nice, which was fine considering it was moved here as a backup due to the Super Bowl being held in Atlanta only a month or so before. Only complaint here is that the vendor booths were crammed into a smaller hallway than seemed necessary with a wide hall close by. The keynote stage was really well done with 6 screens so that nobody missed a thing. And I had coffee provided every morning and afternoon, which is always a great thing.</p>\n<h3 id=\"keynotes\"><a href=\"#keynotes\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Keynotes</h3>\n<p>The keynotes were all great. Three in total:</p>\n<ul>\n<li>The first one given by <a href=\"https://twitter.com/venkat_s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Venkat Subramaniam</a> had a great comparison in it - Imperative is to Functional as wave is to particle when talking about light. Meaning that rather than argue which is better (imperative or functional) when talking about approaches to programming, why not think of it as a duality like the <a href=\"https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">wave-particle duality</a> of light? I think that this was nice to hear after recently hearing coworkers argue back and forth on the two approaches' behalf. Both have issues when left by themselves (not the coworkers, the schools of thought), but the amount of either that is deemed best has long been the question. Do I write X in this approach even though it feels long, sloppy, and hard to read? Or, do I write Y in this other approach though it feels disconnected, complex, and difficult to write? The answer seems to be in the middle. </li>\n<li>The next given by the CTO of ThoughtWorks, <a href=\"https://www.thoughtworks.com/profiles/rebecca-parsons\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Rebecca Parsons</a>, was also very interesting and well-done. Let me tell you that one of my favorite parts of this talk was the design of the slide deck. Crisp, all-white slides with single lines of black text along with all-black title slides that had a single, thick-weighted white title; images took up a separate slide without any other content. It was so good that that night I created a custom slide theme after it. The talk itself was about evolutionary architecture and getting your application there. She talked about applying a fitness function to your architecture with which to constantly measure your applications health and gain insights into what needs to be done. This fitness function created with multiple \"-ilities\" (maintainability, testability, scalability, etc), but - crucially - not all of the \"-ilities\". Also priorities on what needs to be fixed and done first. I enjoyed hearing this talk as I have never applied this kind of thinking to architecture.</li>\n<li>The third was one of my favorites from the entire weekend. <a href=\"https://www.youtube.com/watch?v=0h5X5UKWao8&#x26;t=2559s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Leadership Guide for the Reluctant Leader</a> was a great talk about being a better coworker and becoming a leader. Though this talk had nothing technical in it, it was great to hear <a href=\"https://twitter.com/reverentgeek\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">David Neal</a> give his experience of climbing up to leadership roles and some of the pains and awkwardness that came about. I highly recommend both following him on Twitter and checking at his talk on Youtube. Not only was he a great presenter but he also draws all of his slides. Was a great kickoff to the second day of presentations with plenty of good laughs.</li>\n</ul>\n<h3 id=\"day-one-highlights\"><a href=\"#day-one-highlights\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Day One Highlights</h3>\n<p>I was really interested to attend presentations as this was my first time to be in person at a conference rather than just behind a video of it. My favorite presentations were as follows:</p>\n<ul>\n<li>A developer and dev advocate from IBM, <a href=\"https://twitter.com/gcharters\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">gcharters</a> and <a href=\"https://twitter.com/spoole167\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Steve Poole</a> respectively, gave a talk on cloud native Java and a bit about serverless technology. This talk was the first that I had learned about <a href=\"https://openliberty.io/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Open Liberty</a> and first I had seen <a href=\"https://www.ibm.com/cloud/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">IBM Cloud</a> in use. The talk was very informative and came with a tutorial (which is huge brownie points from me). If you stopped by the IBM booth at the conference, you could mess around with all of the things talked about in the talk and earn a free shirt (best believe I did that!). The other thing that I really appreciated from this talk was that these were potential solutions that one could explore, though serverless is not the answer for every problem. This was a little refreshing after hearing (what seemed like) a thousand conversations of how attendees were going to move from a <a href=\"https://en.wikipedia.org/wiki/Monolithic_application\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Monolith</a> to <a href=\"https://www.serverlessops.io/what-is-serverless\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Serverless</a> when they got back to work.</li>\n<li>A <a href=\"https://github.com/mikestowe/REST-API-Multiple-Request-Chaining\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">technique</a> for chaining REST calls together was unveiled in another talk. The talk went over some of the issues that a lot of API architectures have had as we have progressed - think SOAP, REST, GraphQL. <a href=\"https://twitter.com/mikegstowe\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Mike</a> did a great job of talking about some of each API's strengths/weaknesses and use cases. </li>\n<li>My favorite talk of day one had to have been <a href=\"https://www.youtube.com/watch?v=I9SqEvUOAoM&#x26;t=448s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Badass 101</a>. This talk had the best abstract (simply a paragraph explaining something to the effect of Chuck Norris not providing an abstract but we should attend to avoid potentially catching a roundhouse kick to the face) and then great content. This talk covered a lot of areas of the concept of \"soft skills\", though I prefer we call them people skills (or human skills, as that's what they are). I recommend that you watch this talk and be a badass!</li>\n</ul>\n<p>I also went to a local restaurant called Murph's for lunch. And let me tell you that it has a great buffalo chicken sandwich and fries. I love sports bars (probably because I am one with sports and beer is literally my blood), so this place hit the spot. Later in the day, I went to another sports bar in Atlanta to try and catch the Atlanta Hawks game and fellow Sooner Trae Young. However, the bar did not put the game on any of the TVs, I was very sad, and, therefore, I do not want to name this bar.</p>\n<h3 id=\"day-two-highlights\"><a href=\"#day-two-highlights\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Day Two Highlights</h3>\n<p>Day two was the day that I was expecting everybody to be tired and sluggish. However, I was delightfully surprised starting with the keynote in the morning. The talks throughout day two seemed to go up and down - one would be good and the next would be pretty eh. Most seemed ready to get to the big giveaway at the end of the day. That day gave me two good talks:</p>\n<ul>\n<li>One of the more applicable talks to my work was a talk on Architectures and moving from Monolith to Microservices and maybe onto Serverless. I particularly liked the way that this was organized. <a href=\"https://twitter.com/betoSalazar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Alberto Salazar</a> walked through the process of moving (sometimes painfully slowly) from a Monolith to Microservices. He also provided a great <a href=\"https://github.com/lasalazarr/guide-monolithic-to-microservices\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">guide</a> to work through. </li>\n<li>The talk that I got the most out of was <a href=\"https://twitter.com/burrsutter\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Burr Sutter's</a> talk on cloud native Java with <a href=\"https://cloud.google.com/knative/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Knative</a>. First of all, the slide deck, pages of documentation, and plenty of tutorials were given to those in attendance (obvious or not, every presenter needs to make a habit of doing this). This meant that during the presentation, I could sit back and enjoy the show. Burr moved quickly and filled our time with loads of information. This was what I worked on after the second day. Look out for a blog post and a talk coming soon on this topic.</li>\n</ul>\n<p>Murph's was so good that I returned there for day two's lunch and had a burger and more local beer - both very good. For my later meal, I tried out Blaze Pizza and was super impressed. Lebron knows where to invest his money.</p>\n<h2 id=\"conclusion\"><a href=\"#conclusion\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Conclusion</h2>\n<p>I had a lot of fun at my first dev conference - DevNexus 2019 in Atlanta. I learned a lot and now have plenty of new toys to tinker with. My loot haul included 3 t-shirts, 3 pairs of socks, an infinite amount of stickers, and a bottle of hand sanitizer. The food was all very good. The only complaint was that an Atlanta sports bar did not show an Atlanta sports team playing in Atlanta. </p>\n<p>Posts to come as follow up for a more in-depth dive into some of the content that I absorbed. </p>",
+            "id": "44dcf995-5911-5f51-8feb-3588b3a11c04",
+            "fields": {
+              "slug": "my-first-dev-conference-2019-dev-nexus"
+            },
+            "frontmatter": {
+              "date": "2019-03-24T22:16:03.284Z",
+              "title": "My First Dev Conference - 2019 DevNexus",
+              "category": "Coding",
+              "tags": [
+                "Coding"
+              ],
+              "banner": "/assets/bg/1.jpg"
+            },
+            "timeToRead": 7
+          },
+          {
             "excerpt": "Built a new blog with Gatsby.js and a great starter. Here I plan to do book\nreviews, tech posts, and much more!  A little bit about me! I am a software developer currently working in Norman, OK. I graduated from \nthe University of Oklahoma where I…",
-            "html": "<p>Built a new blog with Gatsby.js and a great starter. Here I plan to do book\nreviews, tech posts, and much more! </p>\n<h2 id=\"a-little-bit-about-me\"><a href=\"#a-little-bit-about-me\" aria-hidden class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>A little bit about me!</h2>\n<p>I am a software developer currently working in Norman, OK. I graduated from\nthe University of Oklahoma where I studied and earned a BS in Mathematics.\nI enjoy long distance running, cycling, reading, and coffee. In the context of\nsoftware development, I enjoy automated testing, machine learning, and\nlearning in general. </p>\n<p>Let's be friends!</p>\n<p>Cheers!</p>",
+            "html": "<p>Built a new blog with Gatsby.js and a great starter. Here I plan to do book\nreviews, tech posts, and much more! </p>\n<h2 id=\"a-little-bit-about-me\"><a href=\"#a-little-bit-about-me\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>A little bit about me!</h2>\n<p>I am a software developer currently working in Norman, OK. I graduated from\nthe University of Oklahoma where I studied and earned a BS in Mathematics.\nI enjoy long distance running, cycling, reading, and coffee. In the context of\nsoftware development, I enjoy automated testing, machine learning, and\nlearning in general. </p>\n<p>Let's be friends!</p>\n<p>Cheers!</p>",
             "id": "cdcf3898-ecb3-588b-9a00-688df09f08e0",
             "fields": {
               "slug": "hello-world"
@@ -2349,16 +2333,16 @@
         ],
         "categoryName": "Coding"
       },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Category.tsx",
       "id": "SitePage /categories/coding",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9668222969530d1b814d42bf8f3429df",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "contentDigest": "a4be66f6fb93a837b315813f82b889ce",
+        "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
@@ -2373,16 +2357,16 @@
           "Coding"
         ]
       },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/AllTag.tsx",
       "id": "SitePage /tags",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c7c645bcc6c46a21bb02edfd1b3aeee3",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "contentDigest": "9498ba7eb1570c5f85c26578752afba7",
+        "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
@@ -2395,8 +2379,26 @@
       "context": {
         "posts": [
           {
+            "excerpt": "I attended DevNexus 2019! This Java conference has been held yearly in Atlanta for quite a few years now.  It was great to explore a new city (albeit lightly), hang out amongst a lot of other software developers, and learn a lot for a few days. The…",
+            "html": "<p>I attended DevNexus 2019! This Java conference has been held yearly in Atlanta for quite a few years now.  It was great to explore a new city (albeit lightly), hang out amongst a lot of other software developers, and learn a lot for a few days. The conference this year seemed to have a few major themes: cloud-forward everything, evolving architecture, and continuing to move towards functional programming. In this post, I roundup and recap a lot of my trip.</p>\n<p>Keep in mind that I will be going much further in depth into a lot of these topics in the near future with talks, blog posts, and tutorials. If you do not get all the detail or information you want from these brief explanations, stick around. Further, feel free to reach out to me on <a href=\"https://twitter.com/devissquared\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Twitter</a> if you would like more info or are particularly interested in a certain topic.</p>\n<p>Also I try to give links to any relevant information that I can within the content. Some of it are links to videos of the presentations at other conferences. The recordings for DevNexus has not yet been made available.</p>\n<h2 id=\"goals-prior-to-attending\"><a href=\"#goals-prior-to-attending\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Goals Prior to Attending</h2>\n<p>I do want to take a second and outline some of the goals that I had going into the conference. The last one is a goal of mine all of the time.</p>\n<ul>\n<li>Learn about moving legacy code to newer architectures</li>\n<li>Learn all the new hotness with serverless, cloud-native functions, and similar <strong>buzzwords</strong></li>\n<li>Learn about Groovy to help some of our testing efforts at work</li>\n<li>Eat good food (an obvious goal for visiting any place, especially a new one)</li>\n</ul>\n<h2 id=\"general-thoughts\"><a href=\"#general-thoughts\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>General Thoughts</h2>\n<p>From the moment that the conference started, I was having a great time. The venue was fairly nice, which was fine considering it was moved here as a backup due to the Super Bowl being held in Atlanta only a month or so before. Only complaint here is that the vendor booths were crammed into a smaller hallway than seemed necessary with a wide hall close by. The keynote stage was really well done with 6 screens so that nobody missed a thing. And I had coffee provided every morning and afternoon, which is always a great thing.</p>\n<h3 id=\"keynotes\"><a href=\"#keynotes\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Keynotes</h3>\n<p>The keynotes were all great. Three in total:</p>\n<ul>\n<li>The first one given by <a href=\"https://twitter.com/venkat_s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Venkat Subramaniam</a> had a great comparison in it - Imperative is to Functional as wave is to particle when talking about light. Meaning that rather than argue which is better (imperative or functional) when talking about approaches to programming, why not think of it as a duality like the <a href=\"https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">wave-particle duality</a> of light? I think that this was nice to hear after recently hearing coworkers argue back and forth on the two approaches' behalf. Both have issues when left by themselves (not the coworkers, the schools of thought), but the amount of either that is deemed best has long been the question. Do I write X in this approach even though it feels long, sloppy, and hard to read? Or, do I write Y in this other approach though it feels disconnected, complex, and difficult to write? The answer seems to be in the middle. </li>\n<li>The next given by the CTO of ThoughtWorks, <a href=\"https://www.thoughtworks.com/profiles/rebecca-parsons\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Rebecca Parsons</a>, was also very interesting and well-done. Let me tell you that one of my favorite parts of this talk was the design of the slide deck. Crisp, all-white slides with single lines of black text along with all-black title slides that had a single, thick-weighted white title; images took up a separate slide without any other content. It was so good that that night I created a custom slide theme after it. The talk itself was about evolutionary architecture and getting your application there. She talked about applying a fitness function to your architecture with which to constantly measure your applications health and gain insights into what needs to be done. This fitness function created with multiple \"-ilities\" (maintainability, testability, scalability, etc), but - crucially - not all of the \"-ilities\". Also priorities on what needs to be fixed and done first. I enjoyed hearing this talk as I have never applied this kind of thinking to architecture.</li>\n<li>The third was one of my favorites from the entire weekend. <a href=\"https://www.youtube.com/watch?v=0h5X5UKWao8&#x26;t=2559s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Leadership Guide for the Reluctant Leader</a> was a great talk about being a better coworker and becoming a leader. Though this talk had nothing technical in it, it was great to hear <a href=\"https://twitter.com/reverentgeek\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">David Neal</a> give his experience of climbing up to leadership roles and some of the pains and awkwardness that came about. I highly recommend both following him on Twitter and checking at his talk on Youtube. Not only was he a great presenter but he also draws all of his slides. Was a great kickoff to the second day of presentations with plenty of good laughs.</li>\n</ul>\n<h3 id=\"day-one-highlights\"><a href=\"#day-one-highlights\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Day One Highlights</h3>\n<p>I was really interested to attend presentations as this was my first time to be in person at a conference rather than just behind a video of it. My favorite presentations were as follows:</p>\n<ul>\n<li>A developer and dev advocate from IBM, <a href=\"https://twitter.com/gcharters\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">gcharters</a> and <a href=\"https://twitter.com/spoole167\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Steve Poole</a> respectively, gave a talk on cloud native Java and a bit about serverless technology. This talk was the first that I had learned about <a href=\"https://openliberty.io/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Open Liberty</a> and first I had seen <a href=\"https://www.ibm.com/cloud/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">IBM Cloud</a> in use. The talk was very informative and came with a tutorial (which is huge brownie points from me). If you stopped by the IBM booth at the conference, you could mess around with all of the things talked about in the talk and earn a free shirt (best believe I did that!). The other thing that I really appreciated from this talk was that these were potential solutions that one could explore, though serverless is not the answer for every problem. This was a little refreshing after hearing (what seemed like) a thousand conversations of how attendees were going to move from a <a href=\"https://en.wikipedia.org/wiki/Monolithic_application\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Monolith</a> to <a href=\"https://www.serverlessops.io/what-is-serverless\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Serverless</a> when they got back to work.</li>\n<li>A <a href=\"https://github.com/mikestowe/REST-API-Multiple-Request-Chaining\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">technique</a> for chaining REST calls together was unveiled in another talk. The talk went over some of the issues that a lot of API architectures have had as we have progressed - think SOAP, REST, GraphQL. <a href=\"https://twitter.com/mikegstowe\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Mike</a> did a great job of talking about some of each API's strengths/weaknesses and use cases. </li>\n<li>My favorite talk of day one had to have been <a href=\"https://www.youtube.com/watch?v=I9SqEvUOAoM&#x26;t=448s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Badass 101</a>. This talk had the best abstract (simply a paragraph explaining something to the effect of Chuck Norris not providing an abstract but we should attend to avoid potentially catching a roundhouse kick to the face) and then great content. This talk covered a lot of areas of the concept of \"soft skills\", though I prefer we call them people skills (or human skills, as that's what they are). I recommend that you watch this talk and be a badass!</li>\n</ul>\n<p>I also went to a local restaurant called Murph's for lunch. And let me tell you that it has a great buffalo chicken sandwich and fries. I love sports bars (probably because I am one with sports and beer is literally my blood), so this place hit the spot. Later in the day, I went to another sports bar in Atlanta to try and catch the Atlanta Hawks game and fellow Sooner Trae Young. However, the bar did not put the game on any of the TVs, I was very sad, and, therefore, I do not want to name this bar.</p>\n<h3 id=\"day-two-highlights\"><a href=\"#day-two-highlights\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Day Two Highlights</h3>\n<p>Day two was the day that I was expecting everybody to be tired and sluggish. However, I was delightfully surprised starting with the keynote in the morning. The talks throughout day two seemed to go up and down - one would be good and the next would be pretty eh. Most seemed ready to get to the big giveaway at the end of the day. That day gave me two good talks:</p>\n<ul>\n<li>One of the more applicable talks to my work was a talk on Architectures and moving from Monolith to Microservices and maybe onto Serverless. I particularly liked the way that this was organized. <a href=\"https://twitter.com/betoSalazar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Alberto Salazar</a> walked through the process of moving (sometimes painfully slowly) from a Monolith to Microservices. He also provided a great <a href=\"https://github.com/lasalazarr/guide-monolithic-to-microservices\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">guide</a> to work through. </li>\n<li>The talk that I got the most out of was <a href=\"https://twitter.com/burrsutter\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Burr Sutter's</a> talk on cloud native Java with <a href=\"https://cloud.google.com/knative/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Knative</a>. First of all, the slide deck, pages of documentation, and plenty of tutorials were given to those in attendance (obvious or not, every presenter needs to make a habit of doing this). This meant that during the presentation, I could sit back and enjoy the show. Burr moved quickly and filled our time with loads of information. This was what I worked on after the second day. Look out for a blog post and a talk coming soon on this topic.</li>\n</ul>\n<p>Murph's was so good that I returned there for day two's lunch and had a burger and more local beer - both very good. For my later meal, I tried out Blaze Pizza and was super impressed. Lebron knows where to invest his money.</p>\n<h2 id=\"conclusion\"><a href=\"#conclusion\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Conclusion</h2>\n<p>I had a lot of fun at my first dev conference - DevNexus 2019 in Atlanta. I learned a lot and now have plenty of new toys to tinker with. My loot haul included 3 t-shirts, 3 pairs of socks, an infinite amount of stickers, and a bottle of hand sanitizer. The food was all very good. The only complaint was that an Atlanta sports bar did not show an Atlanta sports team playing in Atlanta. </p>\n<p>Posts to come as follow up for a more in-depth dive into some of the content that I absorbed. </p>",
+            "id": "44dcf995-5911-5f51-8feb-3588b3a11c04",
+            "fields": {
+              "slug": "my-first-dev-conference-2019-dev-nexus"
+            },
+            "frontmatter": {
+              "date": "2019-03-24T22:16:03.284Z",
+              "title": "My First Dev Conference - 2019 DevNexus",
+              "category": "Coding",
+              "tags": [
+                "Coding"
+              ],
+              "banner": "/assets/bg/1.jpg"
+            },
+            "timeToRead": 7
+          },
+          {
             "excerpt": "Built a new blog with Gatsby.js and a great starter. Here I plan to do book\nreviews, tech posts, and much more!  A little bit about me! I am a software developer currently working in Norman, OK. I graduated from \nthe University of Oklahoma where I…",
-            "html": "<p>Built a new blog with Gatsby.js and a great starter. Here I plan to do book\nreviews, tech posts, and much more! </p>\n<h2 id=\"a-little-bit-about-me\"><a href=\"#a-little-bit-about-me\" aria-hidden class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>A little bit about me!</h2>\n<p>I am a software developer currently working in Norman, OK. I graduated from\nthe University of Oklahoma where I studied and earned a BS in Mathematics.\nI enjoy long distance running, cycling, reading, and coffee. In the context of\nsoftware development, I enjoy automated testing, machine learning, and\nlearning in general. </p>\n<p>Let's be friends!</p>\n<p>Cheers!</p>",
+            "html": "<p>Built a new blog with Gatsby.js and a great starter. Here I plan to do book\nreviews, tech posts, and much more! </p>\n<h2 id=\"a-little-bit-about-me\"><a href=\"#a-little-bit-about-me\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>A little bit about me!</h2>\n<p>I am a software developer currently working in Norman, OK. I graduated from\nthe University of Oklahoma where I studied and earned a BS in Mathematics.\nI enjoy long distance running, cycling, reading, and coffee. In the context of\nsoftware development, I enjoy automated testing, machine learning, and\nlearning in general. </p>\n<p>Let's be friends!</p>\n<p>Cheers!</p>",
             "id": "cdcf3898-ecb3-588b-9a00-688df09f08e0",
             "fields": {
               "slug": "hello-world"
@@ -2415,16 +2417,57 @@
         ],
         "tagName": "Coding"
       },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Tag.tsx",
       "id": "SitePage /tags/coding",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "78e65714c691fd4ccaa9f76300fed456",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "contentDigest": "ee4164fea7deadd71d29e82487090a46",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/my-first-dev-conference-2019-dev-nexus": {
+      "jsonName": "blog-my-first-dev-conference-2019-dev-nexus-88b",
+      "internalComponentName": "ComponentBlogMyFirstDevConference2019DevNexus",
+      "path": "/blog/my-first-dev-conference-2019-dev-nexus",
+      "component": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Post.tsx",
+      "componentChunkName": "component---src-templates-post-tsx",
+      "context": {
+        "slug": "my-first-dev-conference-2019-dev-nexus",
+        "prev": {
+          "excerpt": "Built a new blog with Gatsby.js and a great starter. Here I plan to do book\nreviews, tech posts, and much more!  A little bit about me! I am a software developer currently working in Norman, OK. I graduated from \nthe University of Oklahoma where I…",
+          "html": "<p>Built a new blog with Gatsby.js and a great starter. Here I plan to do book\nreviews, tech posts, and much more! </p>\n<h2 id=\"a-little-bit-about-me\"><a href=\"#a-little-bit-about-me\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>A little bit about me!</h2>\n<p>I am a software developer currently working in Norman, OK. I graduated from\nthe University of Oklahoma where I studied and earned a BS in Mathematics.\nI enjoy long distance running, cycling, reading, and coffee. In the context of\nsoftware development, I enjoy automated testing, machine learning, and\nlearning in general. </p>\n<p>Let's be friends!</p>\n<p>Cheers!</p>",
+          "id": "cdcf3898-ecb3-588b-9a00-688df09f08e0",
+          "fields": {
+            "slug": "hello-world"
+          },
+          "frontmatter": {
+            "date": "2019-02-02T22:16:03.284Z",
+            "title": "Hello World",
+            "category": "Coding",
+            "tags": [
+              "Coding"
+            ],
+            "banner": "/assets/bg/4.jpg"
+          },
+          "timeToRead": 1
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Post.tsx",
+      "id": "SitePage /blog/my-first-dev-conference-2019-dev-nexus",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d2d7c5f4c8397b433824d3a87f9c67ec",
+        "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
@@ -2437,18 +2480,35 @@
       "context": {
         "slug": "hello-world",
         "prev": null,
-        "next": null
+        "next": {
+          "excerpt": "I attended DevNexus 2019! This Java conference has been held yearly in Atlanta for quite a few years now.  It was great to explore a new city (albeit lightly), hang out amongst a lot of other software developers, and learn a lot for a few days. The…",
+          "html": "<p>I attended DevNexus 2019! This Java conference has been held yearly in Atlanta for quite a few years now.  It was great to explore a new city (albeit lightly), hang out amongst a lot of other software developers, and learn a lot for a few days. The conference this year seemed to have a few major themes: cloud-forward everything, evolving architecture, and continuing to move towards functional programming. In this post, I roundup and recap a lot of my trip.</p>\n<p>Keep in mind that I will be going much further in depth into a lot of these topics in the near future with talks, blog posts, and tutorials. If you do not get all the detail or information you want from these brief explanations, stick around. Further, feel free to reach out to me on <a href=\"https://twitter.com/devissquared\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Twitter</a> if you would like more info or are particularly interested in a certain topic.</p>\n<p>Also I try to give links to any relevant information that I can within the content. Some of it are links to videos of the presentations at other conferences. The recordings for DevNexus has not yet been made available.</p>\n<h2 id=\"goals-prior-to-attending\"><a href=\"#goals-prior-to-attending\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Goals Prior to Attending</h2>\n<p>I do want to take a second and outline some of the goals that I had going into the conference. The last one is a goal of mine all of the time.</p>\n<ul>\n<li>Learn about moving legacy code to newer architectures</li>\n<li>Learn all the new hotness with serverless, cloud-native functions, and similar <strong>buzzwords</strong></li>\n<li>Learn about Groovy to help some of our testing efforts at work</li>\n<li>Eat good food (an obvious goal for visiting any place, especially a new one)</li>\n</ul>\n<h2 id=\"general-thoughts\"><a href=\"#general-thoughts\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>General Thoughts</h2>\n<p>From the moment that the conference started, I was having a great time. The venue was fairly nice, which was fine considering it was moved here as a backup due to the Super Bowl being held in Atlanta only a month or so before. Only complaint here is that the vendor booths were crammed into a smaller hallway than seemed necessary with a wide hall close by. The keynote stage was really well done with 6 screens so that nobody missed a thing. And I had coffee provided every morning and afternoon, which is always a great thing.</p>\n<h3 id=\"keynotes\"><a href=\"#keynotes\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Keynotes</h3>\n<p>The keynotes were all great. Three in total:</p>\n<ul>\n<li>The first one given by <a href=\"https://twitter.com/venkat_s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Venkat Subramaniam</a> had a great comparison in it - Imperative is to Functional as wave is to particle when talking about light. Meaning that rather than argue which is better (imperative or functional) when talking about approaches to programming, why not think of it as a duality like the <a href=\"https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">wave-particle duality</a> of light? I think that this was nice to hear after recently hearing coworkers argue back and forth on the two approaches' behalf. Both have issues when left by themselves (not the coworkers, the schools of thought), but the amount of either that is deemed best has long been the question. Do I write X in this approach even though it feels long, sloppy, and hard to read? Or, do I write Y in this other approach though it feels disconnected, complex, and difficult to write? The answer seems to be in the middle. </li>\n<li>The next given by the CTO of ThoughtWorks, <a href=\"https://www.thoughtworks.com/profiles/rebecca-parsons\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Rebecca Parsons</a>, was also very interesting and well-done. Let me tell you that one of my favorite parts of this talk was the design of the slide deck. Crisp, all-white slides with single lines of black text along with all-black title slides that had a single, thick-weighted white title; images took up a separate slide without any other content. It was so good that that night I created a custom slide theme after it. The talk itself was about evolutionary architecture and getting your application there. She talked about applying a fitness function to your architecture with which to constantly measure your applications health and gain insights into what needs to be done. This fitness function created with multiple \"-ilities\" (maintainability, testability, scalability, etc), but - crucially - not all of the \"-ilities\". Also priorities on what needs to be fixed and done first. I enjoyed hearing this talk as I have never applied this kind of thinking to architecture.</li>\n<li>The third was one of my favorites from the entire weekend. <a href=\"https://www.youtube.com/watch?v=0h5X5UKWao8&#x26;t=2559s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Leadership Guide for the Reluctant Leader</a> was a great talk about being a better coworker and becoming a leader. Though this talk had nothing technical in it, it was great to hear <a href=\"https://twitter.com/reverentgeek\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">David Neal</a> give his experience of climbing up to leadership roles and some of the pains and awkwardness that came about. I highly recommend both following him on Twitter and checking at his talk on Youtube. Not only was he a great presenter but he also draws all of his slides. Was a great kickoff to the second day of presentations with plenty of good laughs.</li>\n</ul>\n<h3 id=\"day-one-highlights\"><a href=\"#day-one-highlights\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Day One Highlights</h3>\n<p>I was really interested to attend presentations as this was my first time to be in person at a conference rather than just behind a video of it. My favorite presentations were as follows:</p>\n<ul>\n<li>A developer and dev advocate from IBM, <a href=\"https://twitter.com/gcharters\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">gcharters</a> and <a href=\"https://twitter.com/spoole167\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Steve Poole</a> respectively, gave a talk on cloud native Java and a bit about serverless technology. This talk was the first that I had learned about <a href=\"https://openliberty.io/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Open Liberty</a> and first I had seen <a href=\"https://www.ibm.com/cloud/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">IBM Cloud</a> in use. The talk was very informative and came with a tutorial (which is huge brownie points from me). If you stopped by the IBM booth at the conference, you could mess around with all of the things talked about in the talk and earn a free shirt (best believe I did that!). The other thing that I really appreciated from this talk was that these were potential solutions that one could explore, though serverless is not the answer for every problem. This was a little refreshing after hearing (what seemed like) a thousand conversations of how attendees were going to move from a <a href=\"https://en.wikipedia.org/wiki/Monolithic_application\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Monolith</a> to <a href=\"https://www.serverlessops.io/what-is-serverless\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Serverless</a> when they got back to work.</li>\n<li>A <a href=\"https://github.com/mikestowe/REST-API-Multiple-Request-Chaining\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">technique</a> for chaining REST calls together was unveiled in another talk. The talk went over some of the issues that a lot of API architectures have had as we have progressed - think SOAP, REST, GraphQL. <a href=\"https://twitter.com/mikegstowe\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Mike</a> did a great job of talking about some of each API's strengths/weaknesses and use cases. </li>\n<li>My favorite talk of day one had to have been <a href=\"https://www.youtube.com/watch?v=I9SqEvUOAoM&#x26;t=448s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Badass 101</a>. This talk had the best abstract (simply a paragraph explaining something to the effect of Chuck Norris not providing an abstract but we should attend to avoid potentially catching a roundhouse kick to the face) and then great content. This talk covered a lot of areas of the concept of \"soft skills\", though I prefer we call them people skills (or human skills, as that's what they are). I recommend that you watch this talk and be a badass!</li>\n</ul>\n<p>I also went to a local restaurant called Murph's for lunch. And let me tell you that it has a great buffalo chicken sandwich and fries. I love sports bars (probably because I am one with sports and beer is literally my blood), so this place hit the spot. Later in the day, I went to another sports bar in Atlanta to try and catch the Atlanta Hawks game and fellow Sooner Trae Young. However, the bar did not put the game on any of the TVs, I was very sad, and, therefore, I do not want to name this bar.</p>\n<h3 id=\"day-two-highlights\"><a href=\"#day-two-highlights\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Day Two Highlights</h3>\n<p>Day two was the day that I was expecting everybody to be tired and sluggish. However, I was delightfully surprised starting with the keynote in the morning. The talks throughout day two seemed to go up and down - one would be good and the next would be pretty eh. Most seemed ready to get to the big giveaway at the end of the day. That day gave me two good talks:</p>\n<ul>\n<li>One of the more applicable talks to my work was a talk on Architectures and moving from Monolith to Microservices and maybe onto Serverless. I particularly liked the way that this was organized. <a href=\"https://twitter.com/betoSalazar\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Alberto Salazar</a> walked through the process of moving (sometimes painfully slowly) from a Monolith to Microservices. He also provided a great <a href=\"https://github.com/lasalazarr/guide-monolithic-to-microservices\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">guide</a> to work through. </li>\n<li>The talk that I got the most out of was <a href=\"https://twitter.com/burrsutter\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Burr Sutter's</a> talk on cloud native Java with <a href=\"https://cloud.google.com/knative/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Knative</a>. First of all, the slide deck, pages of documentation, and plenty of tutorials were given to those in attendance (obvious or not, every presenter needs to make a habit of doing this). This meant that during the presentation, I could sit back and enjoy the show. Burr moved quickly and filled our time with loads of information. This was what I worked on after the second day. Look out for a blog post and a talk coming soon on this topic.</li>\n</ul>\n<p>Murph's was so good that I returned there for day two's lunch and had a burger and more local beer - both very good. For my later meal, I tried out Blaze Pizza and was super impressed. Lebron knows where to invest his money.</p>\n<h2 id=\"conclusion\"><a href=\"#conclusion\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Conclusion</h2>\n<p>I had a lot of fun at my first dev conference - DevNexus 2019 in Atlanta. I learned a lot and now have plenty of new toys to tinker with. My loot haul included 3 t-shirts, 3 pairs of socks, an infinite amount of stickers, and a bottle of hand sanitizer. The food was all very good. The only complaint was that an Atlanta sports bar did not show an Atlanta sports team playing in Atlanta. </p>\n<p>Posts to come as follow up for a more in-depth dive into some of the content that I absorbed. </p>",
+          "id": "44dcf995-5911-5f51-8feb-3588b3a11c04",
+          "fields": {
+            "slug": "my-first-dev-conference-2019-dev-nexus"
+          },
+          "frontmatter": {
+            "date": "2019-03-24T22:16:03.284Z",
+            "title": "My First Dev Conference - 2019 DevNexus",
+            "category": "Coding",
+            "tags": [
+              "Coding"
+            ],
+            "banner": "/assets/bg/1.jpg"
+          },
+          "timeToRead": 7
+        }
       },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Post.tsx",
       "id": "SitePage /blog/hello-world",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cdd81b16ce4e802c300ce33b8ac89655",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "contentDigest": "10e26d16c403273f3427c97695f0cf7a",
+        "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
@@ -2459,16 +2519,16 @@
       "component": "/Users/Devin/Documents/GitHub/devsquared_blog/src/pages/404.tsx",
       "componentChunkName": "component---src-pages-404-tsx",
       "context": {},
-      "pluginCreator___NODE": "1b8e5f99-6371-58e7-a466-78196868cbc7",
-      "pluginCreatorId": "1b8e5f99-6371-58e7-a466-78196868cbc7",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/pages/404.tsx",
       "id": "SitePage /404/",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ef9b38dd473d97b27487e764fba19c61",
-        "description": "1b8e5f99-6371-58e7-a466-78196868cbc7",
+        "contentDigest": "063d94e52d50f45033755a4b075e16d5",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -2479,16 +2539,16 @@
       "component": "/Users/Devin/Documents/GitHub/devsquared_blog/src/pages/contact.tsx",
       "componentChunkName": "component---src-pages-contact-tsx",
       "context": {},
-      "pluginCreator___NODE": "1b8e5f99-6371-58e7-a466-78196868cbc7",
-      "pluginCreatorId": "1b8e5f99-6371-58e7-a466-78196868cbc7",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/pages/contact.tsx",
       "id": "SitePage /contact/",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0acf56a13d89fdb7133258a496a01425",
-        "description": "1b8e5f99-6371-58e7-a466-78196868cbc7",
+        "contentDigest": "6c085da04e635241ded0532d1f1a71d9",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -2499,16 +2559,16 @@
       "component": "/Users/Devin/Documents/GitHub/devsquared_blog/src/pages/index.tsx",
       "componentChunkName": "component---src-pages-index-tsx",
       "context": {},
-      "pluginCreator___NODE": "1b8e5f99-6371-58e7-a466-78196868cbc7",
-      "pluginCreatorId": "1b8e5f99-6371-58e7-a466-78196868cbc7",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/pages/index.tsx",
       "id": "SitePage /",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d59679b5a748fd7d1ea8286478761742",
-        "description": "1b8e5f99-6371-58e7-a466-78196868cbc7",
+        "contentDigest": "d607b2196cdb78b419a017ff07f98c71",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -2519,28 +2579,31 @@
       "component": "/Users/Devin/Documents/GitHub/devsquared_blog/src/pages/404.tsx",
       "componentChunkName": "component---src-pages-404-tsx",
       "context": {},
-      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/pages/404.tsx",
       "id": "SitePage /404.html",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f59e7ffb40b221b1510a389a8b26802f",
-        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "contentDigest": "59ffc4e12664199c3ae1d0f14baa9acd",
+        "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a728030f28d1e0acf2a0a6e9fddb7efc"
+    "PLUGINS_HASH": "75a53f9e569622b7ec49e5b76af3cf01"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-tsx"
+      ],
+      "44dcf995-5911-5f51-8feb-3588b3a11c04": [
+        "/blog/my-first-dev-conference-2019-dev-nexus"
       ],
       "cdcf3898-ecb3-588b-9a00-688df09f08e0": [
         "/blog/hello-world"
@@ -2548,26 +2611,25 @@
     },
     "connections": {
       "MarkdownRemark": [
-        null,
         "/",
-        "/blog",
-        null
+        "/blog"
       ]
     }
   },
   "jsonDataPaths": {
     "sq--src-components-layout-tsx": 1536950682,
-    "blog-hello-world-09a": "884/path---blog-hello-world-09-a-1a9-thBRJYdy8TCo0Zb9nl6RHcoDjhA",
-    "blog-c06": "351/path---blog-c-06-a65-EuOvw4gXsQTmqjNToTU7zUdDbLU",
-    "index": "240/path---index-6a9-n9ZOcXIESOPBwCYJnXXHmsBi2yY",
+    "blog-hello-world-09a": "718/path---blog-hello-world-09-a-1a9-BEDcVC7oNqW8TiXDUYqfpiWqXag",
+    "blog-c06": "896/path---blog-c-06-a65-pRBtaltunnuxEvbWMTsCtuoXZ5w",
+    "index": "981/path---index-6a9-cS5nwCNrqLNC8holufafk1FJ0",
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
     "categories-b0b": "385/path---categories-b-0-b-a23-g2eWHIilTC1JeoUx1qqZIvdd518",
-    "categories-coding-902": "821/path---categories-coding-902-d7e-7AVW1PMWb4WWq7ar97zXgbPoY",
+    "categories-coding-902": "968/path---categories-coding-902-d7e-54uwbIXL4OqCdIz8hUg1nyHnI4",
     "tags-d57": "321/path---tags-d-57-537-awcZWAxHMyVQF6GeRWy3CHtTWI",
-    "tags-coding-9b0": "199/path---tags-coding-9-b-0-4be-NhOmwPvymmKfB7wY6qolT5xXw3k",
+    "tags-coding-9b0": "100/path---tags-coding-9-b-0-4be-7leYZPNWLz1IXszvGu3zSsFLZ5g",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E"
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-my-first-dev-conference-2019-dev-nexus-88b": "754/path---blog-my-first-dev-conference-2019-dev-nexus-88-b-1a1-xciWMUlli9fK7uYEMkcIjgMY30"
   },
   "components": {
     "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-offline/app-shell.js": {

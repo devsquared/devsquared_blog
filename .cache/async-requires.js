@@ -14,5 +14,5 @@ exports.components = {
   "component---src-pages-index-tsx": () => import("/Users/Devin/Documents/GitHub/devsquared_blog/src/pages/index.tsx" /* webpackChunkName: "component---src-pages-index-tsx" */)
 }
 
-exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/Devin/Documents/GitHub/devsquared_blog/.cache/data.json")
+exports.data = () => import("/Users/Devin/Documents/GitHub/devsquared_blog/.cache/data.json")
 

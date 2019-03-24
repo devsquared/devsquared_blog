@@ -25,6 +25,11 @@
         "path": "/blog/hello-world"
     },
     {
+        "componentChunkName": "component---src-templates-post-tsx",
+        "jsonName": "blog-my-first-dev-conference-2019-dev-nexus-88b",
+        "path": "/blog/my-first-dev-conference-2019-dev-nexus"
+    },
+    {
         "componentChunkName": "component---src-templates-all-category-tsx",
         "jsonName": "categories-b0b",
         "path": "/categories"

@@ -11,8 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.6.3/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.6.3"});
+importScripts("workbox-v3.6.2/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.2"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,32 +26,48 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-bc347628f9377f81e7f9.js"
+    "url": "webpack-runtime-cf8432a86bbebf9956c3.js"
   },
   {
-    "url": "app-dfbd91b467bc0a7cf016.js"
+    "url": "app-fb86c961acdd9d7e3e99.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-0cecae530401f3fe2094.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-6343b08ae213af306e85.js"
+  },
+  {
+    "url": "index.html",
+    "revision": "cceb3eed3a45f470395e2a52c6925e7c"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "3d229a064a389e5272831f2b5efb0944"
+    "revision": "ff73d5edd5aeb02e7cfabbe0be3b9f9f"
+  },
+  {
+    "url": "component---src-pages-index-tsx.0e4338761429b4eb16ac.css"
+  },
+  {
+    "url": "0-b30a221a2290d4d33c09.js"
+  },
+  {
+    "url": "component---src-pages-index-tsx-d0d6126097624b3f9c0c.js"
+  },
+  {
+    "url": "static/d/981/path---index-6a9-cS5nwCNrqLNC8holufafk1FJ0.json",
+    "revision": "bd46c901761b7e8ad7e0555392efc0dd"
   },
   {
     "url": "component---src-pages-404-tsx.0e4338761429b4eb16ac.css"
   },
   {
-    "url": "0-834b1fcfbe007bfdecbd.js"
+    "url": "component---src-pages-404-tsx-82dd4224a6cd881ddb69.js"
   },
   {
-    "url": "component---src-pages-404-tsx-a223475088af3cad2a73.js"
+    "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
+    "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
   },
   {
-    "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json"
-  },
-  {
-    "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json"
+    "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json",
+    "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
   },
   {
     "url": "manifest.webmanifest",
@@ -61,105 +77,30 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, workbox.strategies.cacheFirst(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, workbox.strategies.staleWhileRevalidate(), 'GET');
+workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
+  whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
+  blacklist: [/\?(.+&)?no-cache=1$/],
+});
 
-/* global importScripts, workbox, idbKeyval */
+workbox.routing.registerRoute(/\.(?:png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https:/, workbox.strategies.networkFirst(), 'GET');
+"use strict";
 
-importScripts(`idb-keyval-iife.min.js`)
-const WHITELIST_KEY = `custom-navigation-whitelist`
+/* global workbox */
+self.addEventListener("message", function (event) {
+  var api = event.data.api;
 
-const navigationRoute = new workbox.routing.NavigationRoute(({ event }) => {
-  const { pathname } = new URL(event.request.url)
-
-  return idbKeyval.get(WHITELIST_KEY).then((customWhitelist = []) => {
-    // Respond with the offline shell if we match the custom whitelist
-    if (customWhitelist.includes(pathname)) {
-      const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
-      const cacheName = workbox.core.cacheNames.precache
-
-      return caches.match(offlineShell, { cacheName }).then(cachedResponse => {
-        if (!cachedResponse) {
-          return fetch(offlineShell).then(response => {
-            if (response.ok) {
-              return caches.open(cacheName).then(cache =>
-                // Clone is needed because put() consumes the response body.
-                cache.put(offlineShell, response.clone()).then(() => response)
-              )
-            } else {
-              return fetch(event.request)
-            }
-          })
-        }
-
-        return cachedResponse
-      })
-    }
-
-    return fetch(event.request)
-  })
-})
-
-workbox.routing.registerRoute(navigationRoute)
-
-let updatingWhitelist = null
-
-function rawWhitelistPathnames(pathnames) {
-  if (updatingWhitelist !== null) {
-    // Prevent the whitelist from being updated twice at the same time
-    return updatingWhitelist.then(() => rawWhitelistPathnames(pathnames))
+  if (api === "gatsby-runtime-cache") {
+    var resources = event.data.resources;
+    var cacheName = workbox.core.cacheNames.runtime;
+    event.waitUntil(caches.open(cacheName).then(function (cache) {
+      return Promise.all(resources.map(function (resource) {
+        return cache.add(resource).catch(function (e) {
+          // ignore TypeErrors - these are usually due to
+          // external resources which don't allow CORS
+          if (!(e instanceof TypeError)) throw e;
+        });
+      }));
+    }));
   }
-
-  updatingWhitelist = idbKeyval
-    .get(WHITELIST_KEY)
-    .then((customWhitelist = []) => {
-      pathnames.forEach(pathname => {
-        if (!customWhitelist.includes(pathname)) customWhitelist.push(pathname)
-      })
-
-      return idbKeyval.set(WHITELIST_KEY, customWhitelist)
-    })
-    .then(() => {
-      updatingWhitelist = null
-    })
-
-  return updatingWhitelist
-}
-
-function rawResetWhitelist() {
-  if (updatingWhitelist !== null) {
-    return updatingWhitelist.then(() => rawResetWhitelist())
-  }
-
-  updatingWhitelist = idbKeyval.set(WHITELIST_KEY, []).then(() => {
-    updatingWhitelist = null
-  })
-
-  return updatingWhitelist
-}
-
-const messageApi = {
-  whitelistPathnames(event) {
-    let { pathnames } = event.data
-
-    pathnames = pathnames.map(({ pathname, includesPrefix }) => {
-      if (!includesPrefix) {
-        return `${pathname}`
-      } else {
-        return pathname
-      }
-    })
-
-    event.waitUntil(rawWhitelistPathnames(pathnames))
-  },
-
-  resetWhitelist(event) {
-    event.waitUntil(rawResetWhitelist())
-  },
-}
-
-self.addEventListener(`message`, event => {
-  const { gatsbyApi } = event.data
-  if (gatsbyApi) messageApi[gatsbyApi](event)
-})
+});
