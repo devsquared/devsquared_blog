@@ -21,6 +21,11 @@
     },
     {
         "componentChunkName": "component---src-templates-post-tsx",
+        "jsonName": "blog-f7a",
+        "path": "/blog/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-tsx",
         "jsonName": "blog-hello-world-09a",
         "path": "/blog/hello-world"
     },
