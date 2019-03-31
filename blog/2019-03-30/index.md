@@ -1,4 +1,3 @@
-```
 ---
 title: Java in the Clouds Talk
 date: '2019-03-30T22:16:03.284Z'
@@ -6,7 +5,6 @@ category: "Coding"
 tags: ['Coding']
 banner: "/assets/bg/3.jpg"
 ---
-```
 
 Earlier this week I gave a presentation to my peers at work on utilizing [Quarkus](https://quarkus.io/) to create native Java applications, throw them into a container, and then utilize them in a simple (if such a thing is possible) [Kubernetes](https://kubernetes.io/) stack with [minikube](https://kubernetes.io/docs/setup/minikube/). In this talk, I also touched upon the architecture topics of microservices, serverless, and container-based applications. I found it to be a good talk in that it sparked interest and raised questions. Also, the live demo went fairly smoothly. However, there were parts that I would like to change up. So, without further ado, here are some of my thoughts on my talk.
 
