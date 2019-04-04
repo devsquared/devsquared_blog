@@ -5,7 +5,7 @@
 <url> <loc>http://devsquared.space/categories/coding</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devsquared.space/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devsquared.space/tags/coding</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://devsquared.space/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devsquared.space/blog/java-in-the-clouds-talk</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devsquared.space/blog/my-first-dev-conference-2019-dev-nexus</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devsquared.space/blog/hello-world</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devsquared.space/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

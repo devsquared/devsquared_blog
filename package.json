@@ -71,6 +71,8 @@
   },
   "dependencies": {
     "gatsby-cli": "^2.5.4",
-    "gatsby-plugin-google-tagmanager": "^2.0.5"
+    "gatsby-plugin-canonical-urls": "^2.0.12",
+    "gatsby-plugin-google-tagmanager": "^2.0.5",
+    "gatsby-plugin-s3": "^0.2.5"
   }
 }

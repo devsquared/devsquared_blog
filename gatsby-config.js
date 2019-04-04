@@ -25,8 +25,8 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-lodash',
-    `gatsby-plugin-s3`,
-    `gatsby-plugin-canonical-urls`,
+   // `gatsby-plugin-s3`,
+   // `gatsby-plugin-canonical-urls`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -78,24 +78,24 @@ module.exports = {
         icon: config.favicon,
       },
     },
-    {
-      resolve: `gatsby-plugin-s3`,
-      options: {
-          bucketName: process.env.TARGET_BUCKET_NAME || "fake-bucket",
-          region: process.env.AWS_REGION,
-          protocol: targetAddress.protocol.slice(0, -1),
-          hostname: targetAddress.hostname,
-          acl: null,
-          params: {
-              // In case you want to add any custom content types: https://github.com/jariz/gatsby-plugin-s3/blob/master/recipes/custom-content-type.md
-          },
-      },
-    },
-    {
-      resolve: `gatsby-plugin-canonical-urls`,
-      options: {
-          siteUrl: targetAddress.href.slice(0, -1),
-      },
-    }
+    // {
+    //   resolve: `gatsby-plugin-s3`,
+    //   options: {
+    //       bucketName: process.env.TARGET_BUCKET_NAME || "fake-bucket",
+    //       region: process.env.AWS_REGION,
+    //       protocol: targetAddress.protocol.slice(0, -1),
+    //       hostname: targetAddress.hostname,
+    //       acl: null,
+    //       params: {
+    //           // In case you want to add any custom content types: https://github.com/jariz/gatsby-plugin-s3/blob/master/recipes/custom-content-type.md
+    //       },
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-plugin-canonical-urls`,
+    //   options: {
+    //       siteUrl: targetAddress.href.slice(0, -1),
+    //   },
+    // }
   ]
 };
