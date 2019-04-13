@@ -996,7 +996,7 @@
       "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
-        "id": "GTM-MVP42QK",
+        "id": "GTM-NK7BMN2",
         "includeInDevelopment": false
       },
       "nodeAPIs": [],
@@ -1016,10 +1016,7 @@
           "google analytics",
           "google tagmanager"
         ],
-        "author": {
-          "name": "Thijs Koerselman",
-          "email": "thijs@vauxlab.com"
-        },
+        "author": "Thijs Koerselman <thijs@vauxlab.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1053,7 +1050,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b84ba1cd10dc896de5db8f0abb405438",
+        "contentDigest": "d2d6fed503b671335c58381fa43755ea",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1573,7 +1570,7 @@
       "resolve": "/Users/Devin/Documents/GitHub/devsquared_blog",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "d802c63159fff2d7bac929def53514fd",
+      "version": "bcb80fa227276df06f00bf7daa1df22b",
       "pluginOptions": {
         "plugins": []
       },
@@ -1599,7 +1596,7 @@
         "dependencies": [
           {
             "name": "gatsby-cli",
-            "version": "^2.5.4"
+            "version": "^2.5.7"
           },
           {
             "name": "gatsby-plugin-canonical-urls",
@@ -1612,6 +1609,10 @@
           {
             "name": "gatsby-plugin-s3",
             "version": "^0.2.5"
+          },
+          {
+            "name": "react-meta-tags",
+            "version": "^0.7.4"
           }
         ],
         "devDependencies": [
@@ -1823,7 +1824,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a71e3d9fc260fc3942bdfaf7513682e5",
+        "contentDigest": "c124198312f1d72ce58eb2e2b2b4b066",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1929,12 +1930,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-04T00:09:22.035Z",
+      "buildTime": "2019-04-13T03:33:28.370Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "acad7688dcb62c7340fed39e1abed233",
+        "contentDigest": "56b5afa1203e2128cc6a4c4090c40ad2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1944,7 +1945,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "da223d40a7f25881ab49a361ecceb1c2",
+        "contentDigest": "520aa2bcff9618994002332d85ce9ce1",
         "type": "Directory",
         "description": "Directory \"blog\"",
         "owner": "gatsby-source-filesystem"
@@ -1953,11 +1954,11 @@
       "absolutePath": "/Users/Devin/Documents/GitHub/devsquared_blog/blog",
       "relativePath": "",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2019-03-31T02:27:36.123Z",
-      "accessTime": "2019-04-04T00:09:26.886Z",
-      "changeTime": "2019-03-31T02:27:36.123Z",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2019-04-13T03:16:16.443Z",
+      "accessTime": "2019-04-13T03:33:33.179Z",
+      "changeTime": "2019-04-13T03:16:16.443Z",
       "birthTime": "2019-01-24T03:43:42.573Z",
       "root": "/",
       "dir": "/Users/Devin/Documents/GitHub/devsquared_blog",
@@ -1967,20 +1968,20 @@
       "relativeDirectory": "..",
       "dev": 16777221,
       "mode": 16877,
-      "nlink": 6,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 12887470468,
       "blocks": 0,
-      "atimeMs": 1554336566885.7292,
-      "mtimeMs": 1553999256122.5093,
-      "ctimeMs": 1553999256122.5093,
+      "atimeMs": 1555126413178.6897,
+      "mtimeMs": 1555125376442.807,
+      "ctimeMs": 1555125376442.807,
       "birthtimeMs": 1548301422572.9636,
-      "atime": "2019-04-04T00:09:26.886Z",
-      "mtime": "2019-03-31T02:27:36.123Z",
-      "ctime": "2019-03-31T02:27:36.123Z",
+      "atime": "2019-04-13T03:33:33.179Z",
+      "mtime": "2019-04-13T03:16:16.443Z",
+      "ctime": "2019-04-13T03:16:16.443Z",
       "birthtime": "2019-01-24T03:43:42.573Z"
     },
     "bc782b18-fb5a-5fd7-ab64-0e9a4a2592ae": {
@@ -1988,7 +1989,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b3552d8500490c74abc4a46b9b518139",
+        "contentDigest": "9b7c9e2d44bf04faa73090fdaede1fd6",
         "type": "Directory",
         "description": "Directory \"blog/2019-02-02\"",
         "owner": "gatsby-source-filesystem"
@@ -2000,7 +2001,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-02-02T17:19:39.233Z",
-      "accessTime": "2019-04-04T00:09:26.888Z",
+      "accessTime": "2019-04-13T03:33:33.182Z",
       "changeTime": "2019-02-02T17:19:39.233Z",
       "birthTime": "2019-02-02T17:19:35.439Z",
       "root": "/",
@@ -2018,11 +2019,11 @@
       "blksize": 4096,
       "ino": 12887575489,
       "blocks": 0,
-      "atimeMs": 1554336566888.3596,
+      "atimeMs": 1555126413181.5815,
       "mtimeMs": 1549127979233.0818,
       "ctimeMs": 1549127979233.0818,
       "birthtimeMs": 1549127975438.6887,
-      "atime": "2019-04-04T00:09:26.888Z",
+      "atime": "2019-04-13T03:33:33.182Z",
       "mtime": "2019-02-02T17:19:39.233Z",
       "ctime": "2019-02-02T17:19:39.233Z",
       "birthtime": "2019-02-02T17:19:35.439Z"
@@ -2032,7 +2033,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1598010ebce2d99d30f1bc119de0c0f7",
+        "contentDigest": "a7ce3076efa63ca6a9cb949a225f6749",
         "type": "Directory",
         "description": "Directory \"blog/2019-03-24\"",
         "owner": "gatsby-source-filesystem"
@@ -2044,7 +2045,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-03-24T05:26:28.312Z",
-      "accessTime": "2019-04-04T00:09:26.888Z",
+      "accessTime": "2019-04-13T03:33:33.182Z",
       "changeTime": "2019-03-24T05:26:28.312Z",
       "birthTime": "2019-03-24T05:25:59.429Z",
       "root": "/",
@@ -2062,11 +2063,11 @@
       "blksize": 4096,
       "ino": 12888130913,
       "blocks": 0,
-      "atimeMs": 1554336566888.4194,
+      "atimeMs": 1555126413181.61,
       "mtimeMs": 1553405188312.2412,
       "ctimeMs": 1553405188312.2412,
       "birthtimeMs": 1553405159428.6538,
-      "atime": "2019-04-04T00:09:26.888Z",
+      "atime": "2019-04-13T03:33:33.182Z",
       "mtime": "2019-03-24T05:26:28.312Z",
       "ctime": "2019-03-24T05:26:28.312Z",
       "birthtime": "2019-03-24T05:25:59.429Z"
@@ -2076,7 +2077,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "385b688de8134a391ce14491043ab1ac",
+        "contentDigest": "6629432a8d35813baa5a5a1845eb7e28",
         "type": "Directory",
         "description": "Directory \"blog/2019-03-30\"",
         "owner": "gatsby-source-filesystem"
@@ -2088,7 +2089,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-03-31T02:27:42.921Z",
-      "accessTime": "2019-04-04T00:09:26.888Z",
+      "accessTime": "2019-04-13T03:33:33.182Z",
       "changeTime": "2019-03-31T02:27:42.921Z",
       "birthTime": "2019-03-31T02:27:23.220Z",
       "root": "/",
@@ -2106,14 +2107,58 @@
       "blksize": 4096,
       "ino": 12888574481,
       "blocks": 0,
-      "atimeMs": 1554336566888.3882,
+      "atimeMs": 1555126413181.6414,
       "mtimeMs": 1553999262921.48,
       "ctimeMs": 1553999262921.48,
       "birthtimeMs": 1553999243219.5833,
-      "atime": "2019-04-04T00:09:26.888Z",
+      "atime": "2019-04-13T03:33:33.182Z",
       "mtime": "2019-03-31T02:27:42.921Z",
       "ctime": "2019-03-31T02:27:42.921Z",
       "birthtime": "2019-03-31T02:27:23.220Z"
+    },
+    "c51617e2-2b7e-5862-bd81-b38db4f1ad8f": {
+      "id": "c51617e2-2b7e-5862-bd81-b38db4f1ad8f",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d460079b9ccaec24ede4d259b9d0fef1",
+        "type": "Directory",
+        "description": "Directory \"blog/2019-04-11\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "post",
+      "absolutePath": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-04-11",
+      "relativePath": "2019-04-11",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-13T03:16:30.118Z",
+      "accessTime": "2019-04-13T03:33:33.182Z",
+      "changeTime": "2019-04-13T03:16:30.118Z",
+      "birthTime": "2019-04-13T03:16:11.321Z",
+      "root": "/",
+      "dir": "/Users/Devin/Documents/GitHub/devsquared_blog/blog",
+      "base": "2019-04-11",
+      "ext": "",
+      "name": "2019-04-11",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888861991,
+      "blocks": 0,
+      "atimeMs": 1555126413181.669,
+      "mtimeMs": 1555125390117.7197,
+      "ctimeMs": 1555125390117.7197,
+      "birthtimeMs": 1555125371320.7114,
+      "atime": "2019-04-13T03:33:33.182Z",
+      "mtime": "2019-04-13T03:16:30.118Z",
+      "ctime": "2019-04-13T03:16:30.118Z",
+      "birthtime": "2019-04-13T03:16:11.321Z"
     },
     "ecfac05a-2a38-5de9-bfd5-2a4305334eeb": {
       "id": "ecfac05a-2a38-5de9-bfd5-2a4305334eeb",
@@ -2209,6 +2254,53 @@
       "ctime": "2019-03-31T15:26:29.370Z",
       "birthtime": "2019-03-30T19:38:10.886Z"
     },
+    "5b1d947d-2e96-58a0-b0a2-ca9e9c65cc3d": {
+      "id": "5b1d947d-2e96-58a0-b0a2-ca9e9c65cc3d",
+      "children": [
+        "e5a3ed44-39ca-57d4-8445-09b3343aa8e2"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "775db2e353d481875ed322d6e08aa3f5",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"blog/2019-04-11/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "post",
+      "absolutePath": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-04-11/index.md",
+      "relativePath": "2019-04-11/index.md",
+      "extension": "md",
+      "size": 7853,
+      "prettySize": "7.85 kB",
+      "modifiedTime": "2019-04-13T03:17:54.139Z",
+      "accessTime": "2019-04-13T03:17:55.290Z",
+      "changeTime": "2019-04-13T03:17:54.139Z",
+      "birthTime": "2019-04-13T03:16:30.118Z",
+      "root": "/",
+      "dir": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-04-11",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2019-04-11",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888862018,
+      "blocks": 16,
+      "atimeMs": 1555125475289.8154,
+      "mtimeMs": 1555125474139.174,
+      "ctimeMs": 1555125474139.174,
+      "birthtimeMs": 1555125390117.7021,
+      "atime": "2019-04-13T03:17:55.290Z",
+      "mtime": "2019-04-13T03:17:54.139Z",
+      "ctime": "2019-04-13T03:17:54.139Z",
+      "birthtime": "2019-04-13T03:16:30.118Z"
+    },
     "29a96e94-1307-5a43-a0b1-ae93d59a71b8": {
       "id": "29a96e94-1307-5a43-a0b1-ae93d59a71b8",
       "children": [
@@ -2229,7 +2321,7 @@
       "size": 10073,
       "prettySize": "10.1 kB",
       "modifiedTime": "2019-03-24T05:25:29.133Z",
-      "accessTime": "2019-03-24T20:19:17.354Z",
+      "accessTime": "2019-04-13T03:17:15.661Z",
       "changeTime": "2019-03-24T05:26:28.312Z",
       "birthTime": "2019-03-24T05:23:05.872Z",
       "root": "/",
@@ -2247,11 +2339,11 @@
       "blksize": 4096,
       "ino": 12888130602,
       "blocks": 24,
-      "atimeMs": 1553458757353.9143,
+      "atimeMs": 1555125435660.8862,
       "mtimeMs": 1553405129133.0017,
       "ctimeMs": 1553405188312.241,
       "birthtimeMs": 1553404985872.1978,
-      "atime": "2019-03-24T20:19:17.354Z",
+      "atime": "2019-04-13T03:17:15.661Z",
       "mtime": "2019-03-24T05:25:29.133Z",
       "ctime": "2019-03-24T05:26:28.312Z",
       "birthtime": "2019-03-24T05:23:05.872Z"
@@ -2314,6 +2406,36 @@
       "fileAbsolutePath": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-03-30/index.md",
       "fields": {
         "slug": "java-in-the-clouds-talk"
+      }
+    },
+    "e5a3ed44-39ca-57d4-8445-09b3343aa8e2": {
+      "id": "e5a3ed44-39ca-57d4-8445-09b3343aa8e2",
+      "children": [],
+      "parent": "5b1d947d-2e96-58a0-b0a2-ca9e9c65cc3d",
+      "internal": {
+        "content": "\nSo Paul George very well may have had a major impact on this years NBA playoffs, at least the western side of the bracket. This impact came from a single shot - a [buzzer beater to beat the Rockets](<https://www.youtube.com/watch?v=Ethe4x7Mnfo>) on Tuesday. Let's ignore the fact that there was a plethora of other things that had to be right in this moment, because nobody cares about the fact that the Death Star had a single meter-wide point of failure. They only care about the amazing moment when Luke glided through a trench, disabled the automated aiming system, and then [blew the Empire's toy to pieces](<https://www.youtube.com/watch?v=KuKqcfO31is&t=3s>).  So, let's just look at that sweet moment that the ball swished through that beautiful twine net. And what it could and has caused.\n\nFor a little more context, let's explain where everything ended up right after that shot went through. That shot put the Thunder at 48-33 heading into the final game. They sat at 6th in the West at that point with on game to play. It put the Rockets finishing the regular season at 53-29. They sat at 3rd in the West then. If the season would have ended right then and there, the Western conference playoffs would have looked like this:\n\n\\- Golden State Warriors vs Los Angeles Clippers\n\n\\- Denver Nuggets vs San Antonio Spurs\n\n\\- Houston Rockets vs Oklahoma City Thunder\n\n\\- Portland Trail Blazers vs Utah Jazz\n\nLet's look at how each team did in their final regular season game and how the playoff picture ended up as it did.\n\n## Clippers Sail in\n\nThe Clippers final day was filled with potential. With a win and a few losses from the teams around them, the Clips could have moved all the way up to 6th. They were to play the Jazz who were already locked into the 5th slot. Utah put up a fight though. The game ended in overtime with the Clippers pulling away. However, the waters didn't clear up as the teams around them ended up winning. This locked the Clippers into the 8th spot with, almost certainly, impending doom looming in the mighty Warriors.\n\nSince the Warriors game did not matter, we have our first matchup of the playoffs for the West:\n\n\\- Golden State Warriors vs Los Angeles Clippers\n\n## Spurs Still Kickin'\n\nSpurs also had a fair amount of potential with moving up with a win and a Thunder loss. They also got to sit and wait to see who the first round opponent they would end up facing (more on that in a second). Spurs faced the Mavs and were tasked with spoiling Dirk's final NBA game. They did as such fairly easily and waited for the rest of the fray to unfold to know where they landed.\n\n## Nuggets Find Gold\n\nAfter a year that saw Denver missing the playoffs, the Nuggets claw their way all the way up towards the top. The young squad, built around a skilled big man in Jokic, surprised a lot of people with the way they kept finding ways to win. Their final day had a little potential - ultimately, win and stay in the 2 slot. If they were to lose, there were a few scenarios with the most likely being slotted to 3. Winning they did though; dispatching the Timberwolves. This slotted them firmly into the 2 seed which makes the turnaround even better for them this year.\n\n## Thunder Glide In\n\nGoing into the game versus the Rockets on Tuesday, it seemed like the Thunder were destined to be an 8th seed. It felt like a free fall that would end with an inevitable spanking from the Golden Boys from the Bay. Then, Paul George hit a shot that sent me into a state of incredible excitement and this plummet turned into a nice rise. I like to picture that Paul George is Tom Cruise in Top Gun pulling a fighter jet out of a dive with perfection.\n\nThe Thunder still had plenty of possibilities for the final night. The seeds that they could end up in were 6-8. The good thing was that Giannis \"the Perfect Human for Basketball\" Antetokounmpo was to sit out the game. Though this was offset when it was announced that Paul George would also be missing the affair. However, the Thunder pulled it off. And this slotted them into the 6th spot, which is still mind boggling since the Thunder always struggle if it is past the All-Star Break.\n\nAll seemed set until...\n\n## Blazers from the Top Rope\n\nGoing into the last day, Portland seemed to be content with a 4th seed finish and a matchup with the Jazz. They played the Kings (a great season for the Kings by the way) who were already eliminated from anything meaningful by this point. The second half of this game started with the Kings up by 25 points. The Blazers also were playing only 6 players like it was an intramural game or something. At that moment, the Thunder were locked into playing the Rockets and scheming on who should try and stop Harden in the first round. But then, Anfernee Simons (a rookie no less) decided to carry the 6-man squad from Portland all the way back from the huge deficit. NBA Twitter went crazy and Portland changed the layout of the Playoffs. Portland stomped the Rockets down a slot and took the 3 seed from Houston's idle hands. This was drastic, but more on that in a second.\n\n## Final Western Conference Standings\n\nSo after all of this craziness, here is what the playoff picture looks like for the Western Conference:\n\n\\- Golden State Warriors vs Los Angeles Clippers\n\n\\- Denver Nuggets vs San Antonio Spurs\n\n\\- Portland Trail Blazers vs Oklahoma City Thunder\n\n\\- Houston Rockets vs Utah Jazz\n\nNow let’s talk about why this scenario is pretty crazy. Prior to this season, the going thought was that the only true threat to the Warriors run at the Western Conference Title was Houston (with a few others having much lower chances). This matchup, then, should be the actual Western Conference Finals matchup in theory. That is now impossible as assuming wins for Houston and Golden State in the first round, they match up in the second round. This opens up a pathway for every other team on the opposite side - Denver, OKC, Trail Blazers, and Spurs. Further, if the Rockets or Warriors have to   expend a lot of energy to defeat this thought-to-be biggest obstacle, the western conference could have a surprising victor.\n\nThere are a few other smaller interesting pieces that this opens up as well. For instance, we now have the Nuggets, a team with very little playoff experience, slotted to play the Spurs, a team that is known for being a force in the playoffs every single year. We have the Thunder playing the Blazers. The Thunder are the lower seed but also won all 4 games against the Blazers during the regular season. But with a series of games in the playoffs, some of these smaller story lines mean a little less.\n\n## Paul George and the Shot\n\nLet's head back to that fateful shot and recap what this set into motion.\n\nOKC vs Houston on April 9th was the Rockets final game. A win and the Rockets are guaranteed to be the 2 seed. This also hands the Thunder a loss and an all-but-certain slot as the 8 seed. Paul George winning at the buzzer potentially gives a lot of reclaimed hope to the Thunder. With a loss, the Thunder are a likely first round exit (again). With this shot and win, they can now be comfortable that the biggest foe (and rival) Golden State is far away. And look at a much more open side of the bracket with a chance to play for a Western Conference Finals title.\n\nI like to think of Paul George pushing a teetering boulder to start its roll down a mountain. Then, the next night the Blazers full-on Chuck-Norris-in-his-prime drop-kicked that sucker into a rolling boulder of Western Conference mayhem. And it seems the Rockets may be the heel that the boulder is nipping at.\n\nThe NBA Playoffs look to be an exciting time this year!",
+        "type": "MarkdownRemark",
+        "contentDigest": "193d6ac30783fe2e475ee6a9de942c88",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Paul George May Have Changed the 2019 NBA Playoffs with One Shot",
+        "date": "2019-04-11T22:16:03.284Z",
+        "category": "Sports",
+        "tags": [
+          "Sports"
+        ],
+        "banner": "/assets/bg/2.jpg",
+        "_PARENT": "5b1d947d-2e96-58a0-b0a2-ca9e9c65cc3d"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nSo Paul George very well may have had a major impact on this years NBA playoffs, at least the western side of the bracket. This impact came from a single shot - a [buzzer beater to beat the Rockets](<https://www.youtube.com/watch?v=Ethe4x7Mnfo>) on Tuesday. Let's ignore the fact that there was a plethora of other things that had to be right in this moment, because nobody cares about the fact that the Death Star had a single meter-wide point of failure. They only care about the amazing moment when Luke glided through a trench, disabled the automated aiming system, and then [blew the Empire's toy to pieces](<https://www.youtube.com/watch?v=KuKqcfO31is&t=3s>).  So, let's just look at that sweet moment that the ball swished through that beautiful twine net. And what it could and has caused.\n\nFor a little more context, let's explain where everything ended up right after that shot went through. That shot put the Thunder at 48-33 heading into the final game. They sat at 6th in the West at that point with on game to play. It put the Rockets finishing the regular season at 53-29. They sat at 3rd in the West then. If the season would have ended right then and there, the Western conference playoffs would have looked like this:\n\n\\- Golden State Warriors vs Los Angeles Clippers\n\n\\- Denver Nuggets vs San Antonio Spurs\n\n\\- Houston Rockets vs Oklahoma City Thunder\n\n\\- Portland Trail Blazers vs Utah Jazz\n\nLet's look at how each team did in their final regular season game and how the playoff picture ended up as it did.\n\n## Clippers Sail in\n\nThe Clippers final day was filled with potential. With a win and a few losses from the teams around them, the Clips could have moved all the way up to 6th. They were to play the Jazz who were already locked into the 5th slot. Utah put up a fight though. The game ended in overtime with the Clippers pulling away. However, the waters didn't clear up as the teams around them ended up winning. This locked the Clippers into the 8th spot with, almost certainly, impending doom looming in the mighty Warriors.\n\nSince the Warriors game did not matter, we have our first matchup of the playoffs for the West:\n\n\\- Golden State Warriors vs Los Angeles Clippers\n\n## Spurs Still Kickin'\n\nSpurs also had a fair amount of potential with moving up with a win and a Thunder loss. They also got to sit and wait to see who the first round opponent they would end up facing (more on that in a second). Spurs faced the Mavs and were tasked with spoiling Dirk's final NBA game. They did as such fairly easily and waited for the rest of the fray to unfold to know where they landed.\n\n## Nuggets Find Gold\n\nAfter a year that saw Denver missing the playoffs, the Nuggets claw their way all the way up towards the top. The young squad, built around a skilled big man in Jokic, surprised a lot of people with the way they kept finding ways to win. Their final day had a little potential - ultimately, win and stay in the 2 slot. If they were to lose, there were a few scenarios with the most likely being slotted to 3. Winning they did though; dispatching the Timberwolves. This slotted them firmly into the 2 seed which makes the turnaround even better for them this year.\n\n## Thunder Glide In\n\nGoing into the game versus the Rockets on Tuesday, it seemed like the Thunder were destined to be an 8th seed. It felt like a free fall that would end with an inevitable spanking from the Golden Boys from the Bay. Then, Paul George hit a shot that sent me into a state of incredible excitement and this plummet turned into a nice rise. I like to picture that Paul George is Tom Cruise in Top Gun pulling a fighter jet out of a dive with perfection.\n\nThe Thunder still had plenty of possibilities for the final night. The seeds that they could end up in were 6-8. The good thing was that Giannis \"the Perfect Human for Basketball\" Antetokounmpo was to sit out the game. Though this was offset when it was announced that Paul George would also be missing the affair. However, the Thunder pulled it off. And this slotted them into the 6th spot, which is still mind boggling since the Thunder always struggle if it is past the All-Star Break.\n\nAll seemed set until...\n\n## Blazers from the Top Rope\n\nGoing into the last day, Portland seemed to be content with a 4th seed finish and a matchup with the Jazz. They played the Kings (a great season for the Kings by the way) who were already eliminated from anything meaningful by this point. The second half of this game started with the Kings up by 25 points. The Blazers also were playing only 6 players like it was an intramural game or something. At that moment, the Thunder were locked into playing the Rockets and scheming on who should try and stop Harden in the first round. But then, Anfernee Simons (a rookie no less) decided to carry the 6-man squad from Portland all the way back from the huge deficit. NBA Twitter went crazy and Portland changed the layout of the Playoffs. Portland stomped the Rockets down a slot and took the 3 seed from Houston's idle hands. This was drastic, but more on that in a second.\n\n## Final Western Conference Standings\n\nSo after all of this craziness, here is what the playoff picture looks like for the Western Conference:\n\n\\- Golden State Warriors vs Los Angeles Clippers\n\n\\- Denver Nuggets vs San Antonio Spurs\n\n\\- Portland Trail Blazers vs Oklahoma City Thunder\n\n\\- Houston Rockets vs Utah Jazz\n\nNow let’s talk about why this scenario is pretty crazy. Prior to this season, the going thought was that the only true threat to the Warriors run at the Western Conference Title was Houston (with a few others having much lower chances). This matchup, then, should be the actual Western Conference Finals matchup in theory. That is now impossible as assuming wins for Houston and Golden State in the first round, they match up in the second round. This opens up a pathway for every other team on the opposite side - Denver, OKC, Trail Blazers, and Spurs. Further, if the Rockets or Warriors have to   expend a lot of energy to defeat this thought-to-be biggest obstacle, the western conference could have a surprising victor.\n\nThere are a few other smaller interesting pieces that this opens up as well. For instance, we now have the Nuggets, a team with very little playoff experience, slotted to play the Spurs, a team that is known for being a force in the playoffs every single year. We have the Thunder playing the Blazers. The Thunder are the lower seed but also won all 4 games against the Blazers during the regular season. But with a series of games in the playoffs, some of these smaller story lines mean a little less.\n\n## Paul George and the Shot\n\nLet's head back to that fateful shot and recap what this set into motion.\n\nOKC vs Houston on April 9th was the Rockets final game. A win and the Rockets are guaranteed to be the 2 seed. This also hands the Thunder a loss and an all-but-certain slot as the 8 seed. Paul George winning at the buzzer potentially gives a lot of reclaimed hope to the Thunder. With a loss, the Thunder are a likely first round exit (again). With this shot and win, they can now be comfortable that the biggest foe (and rival) Golden State is far away. And look at a much more open side of the bracket with a chance to play for a Western Conference Finals title.\n\nI like to think of Paul George pushing a teetering boulder to start its roll down a mountain. Then, the next night the Blazers full-on Chuck-Norris-in-his-prime drop-kicked that sucker into a rolling boulder of Western Conference mayhem. And it seems the Rockets may be the heel that the boulder is nipping at.\n\nThe NBA Playoffs look to be an exciting time this year!",
+      "fileAbsolutePath": "/Users/Devin/Documents/GitHub/devsquared_blog/blog/2019-04-11/index.md",
+      "fields": {
+        "slug": "paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot"
       }
     },
     "44dcf995-5911-5f51-8feb-3588b3a11c04": {
@@ -2399,7 +2521,8 @@
       "componentChunkName": "component---src-templates-all-category-tsx",
       "context": {
         "categories": [
-          "Coding"
+          "Coding",
+          "Sports"
         ]
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
@@ -2410,7 +2533,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a2d2e6cb728d4685f8906beefe4dfd97",
+        "contentDigest": "8c81bee20aadb251c9f70f0a9a24b918",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2493,6 +2616,48 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /categories/sports": {
+      "jsonName": "categories-sports-660",
+      "internalComponentName": "ComponentCategoriesSports",
+      "path": "/categories/sports",
+      "component": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Category.tsx",
+      "componentChunkName": "component---src-templates-category-tsx",
+      "context": {
+        "posts": [
+          {
+            "excerpt": "So Paul George very well may have had a major impact on this years NBA playoffs, at least the western side of the bracket. This impact came from a single shot - a  buzzer beater to beat the Rockets  on Tuesday. Let's ignore the fact that there was a…",
+            "html": "<p>So Paul George very well may have had a major impact on this years NBA playoffs, at least the western side of the bracket. This impact came from a single shot - a <a href=\"https://www.youtube.com/watch?v=Ethe4x7Mnfo\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">buzzer beater to beat the Rockets</a> on Tuesday. Let's ignore the fact that there was a plethora of other things that had to be right in this moment, because nobody cares about the fact that the Death Star had a single meter-wide point of failure. They only care about the amazing moment when Luke glided through a trench, disabled the automated aiming system, and then <a href=\"https://www.youtube.com/watch?v=KuKqcfO31is&#x26;t=3s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">blew the Empire's toy to pieces</a>.  So, let's just look at that sweet moment that the ball swished through that beautiful twine net. And what it could and has caused.</p>\n<p>For a little more context, let's explain where everything ended up right after that shot went through. That shot put the Thunder at 48-33 heading into the final game. They sat at 6th in the West at that point with on game to play. It put the Rockets finishing the regular season at 53-29. They sat at 3rd in the West then. If the season would have ended right then and there, the Western conference playoffs would have looked like this:</p>\n<p>- Golden State Warriors vs Los Angeles Clippers</p>\n<p>- Denver Nuggets vs San Antonio Spurs</p>\n<p>- Houston Rockets vs Oklahoma City Thunder</p>\n<p>- Portland Trail Blazers vs Utah Jazz</p>\n<p>Let's look at how each team did in their final regular season game and how the playoff picture ended up as it did.</p>\n<h2 id=\"clippers-sail-in\"><a href=\"#clippers-sail-in\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Clippers Sail in</h2>\n<p>The Clippers final day was filled with potential. With a win and a few losses from the teams around them, the Clips could have moved all the way up to 6th. They were to play the Jazz who were already locked into the 5th slot. Utah put up a fight though. The game ended in overtime with the Clippers pulling away. However, the waters didn't clear up as the teams around them ended up winning. This locked the Clippers into the 8th spot with, almost certainly, impending doom looming in the mighty Warriors.</p>\n<p>Since the Warriors game did not matter, we have our first matchup of the playoffs for the West:</p>\n<p>- Golden State Warriors vs Los Angeles Clippers</p>\n<h2 id=\"spurs-still-kickin\"><a href=\"#spurs-still-kickin\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Spurs Still Kickin'</h2>\n<p>Spurs also had a fair amount of potential with moving up with a win and a Thunder loss. They also got to sit and wait to see who the first round opponent they would end up facing (more on that in a second). Spurs faced the Mavs and were tasked with spoiling Dirk's final NBA game. They did as such fairly easily and waited for the rest of the fray to unfold to know where they landed.</p>\n<h2 id=\"nuggets-find-gold\"><a href=\"#nuggets-find-gold\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Nuggets Find Gold</h2>\n<p>After a year that saw Denver missing the playoffs, the Nuggets claw their way all the way up towards the top. The young squad, built around a skilled big man in Jokic, surprised a lot of people with the way they kept finding ways to win. Their final day had a little potential - ultimately, win and stay in the 2 slot. If they were to lose, there were a few scenarios with the most likely being slotted to 3. Winning they did though; dispatching the Timberwolves. This slotted them firmly into the 2 seed which makes the turnaround even better for them this year.</p>\n<h2 id=\"thunder-glide-in\"><a href=\"#thunder-glide-in\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Thunder Glide In</h2>\n<p>Going into the game versus the Rockets on Tuesday, it seemed like the Thunder were destined to be an 8th seed. It felt like a free fall that would end with an inevitable spanking from the Golden Boys from the Bay. Then, Paul George hit a shot that sent me into a state of incredible excitement and this plummet turned into a nice rise. I like to picture that Paul George is Tom Cruise in Top Gun pulling a fighter jet out of a dive with perfection.</p>\n<p>The Thunder still had plenty of possibilities for the final night. The seeds that they could end up in were 6-8. The good thing was that Giannis \"the Perfect Human for Basketball\" Antetokounmpo was to sit out the game. Though this was offset when it was announced that Paul George would also be missing the affair. However, the Thunder pulled it off. And this slotted them into the 6th spot, which is still mind boggling since the Thunder always struggle if it is past the All-Star Break.</p>\n<p>All seemed set until...</p>\n<h2 id=\"blazers-from-the-top-rope\"><a href=\"#blazers-from-the-top-rope\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Blazers from the Top Rope</h2>\n<p>Going into the last day, Portland seemed to be content with a 4th seed finish and a matchup with the Jazz. They played the Kings (a great season for the Kings by the way) who were already eliminated from anything meaningful by this point. The second half of this game started with the Kings up by 25 points. The Blazers also were playing only 6 players like it was an intramural game or something. At that moment, the Thunder were locked into playing the Rockets and scheming on who should try and stop Harden in the first round. But then, Anfernee Simons (a rookie no less) decided to carry the 6-man squad from Portland all the way back from the huge deficit. NBA Twitter went crazy and Portland changed the layout of the Playoffs. Portland stomped the Rockets down a slot and took the 3 seed from Houston's idle hands. This was drastic, but more on that in a second.</p>\n<h2 id=\"final-western-conference-standings\"><a href=\"#final-western-conference-standings\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Final Western Conference Standings</h2>\n<p>So after all of this craziness, here is what the playoff picture looks like for the Western Conference:</p>\n<p>- Golden State Warriors vs Los Angeles Clippers</p>\n<p>- Denver Nuggets vs San Antonio Spurs</p>\n<p>- Portland Trail Blazers vs Oklahoma City Thunder</p>\n<p>- Houston Rockets vs Utah Jazz</p>\n<p>Now let’s talk about why this scenario is pretty crazy. Prior to this season, the going thought was that the only true threat to the Warriors run at the Western Conference Title was Houston (with a few others having much lower chances). This matchup, then, should be the actual Western Conference Finals matchup in theory. That is now impossible as assuming wins for Houston and Golden State in the first round, they match up in the second round. This opens up a pathway for every other team on the opposite side - Denver, OKC, Trail Blazers, and Spurs. Further, if the Rockets or Warriors have to   expend a lot of energy to defeat this thought-to-be biggest obstacle, the western conference could have a surprising victor.</p>\n<p>There are a few other smaller interesting pieces that this opens up as well. For instance, we now have the Nuggets, a team with very little playoff experience, slotted to play the Spurs, a team that is known for being a force in the playoffs every single year. We have the Thunder playing the Blazers. The Thunder are the lower seed but also won all 4 games against the Blazers during the regular season. But with a series of games in the playoffs, some of these smaller story lines mean a little less.</p>\n<h2 id=\"paul-george-and-the-shot\"><a href=\"#paul-george-and-the-shot\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Paul George and the Shot</h2>\n<p>Let's head back to that fateful shot and recap what this set into motion.</p>\n<p>OKC vs Houston on April 9th was the Rockets final game. A win and the Rockets are guaranteed to be the 2 seed. This also hands the Thunder a loss and an all-but-certain slot as the 8 seed. Paul George winning at the buzzer potentially gives a lot of reclaimed hope to the Thunder. With a loss, the Thunder are a likely first round exit (again). With this shot and win, they can now be comfortable that the biggest foe (and rival) Golden State is far away. And look at a much more open side of the bracket with a chance to play for a Western Conference Finals title.</p>\n<p>I like to think of Paul George pushing a teetering boulder to start its roll down a mountain. Then, the next night the Blazers full-on Chuck-Norris-in-his-prime drop-kicked that sucker into a rolling boulder of Western Conference mayhem. And it seems the Rockets may be the heel that the boulder is nipping at.</p>\n<p>The NBA Playoffs look to be an exciting time this year!</p>",
+            "id": "e5a3ed44-39ca-57d4-8445-09b3343aa8e2",
+            "fields": {
+              "slug": "paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot"
+            },
+            "frontmatter": {
+              "date": "2019-04-11T22:16:03.284Z",
+              "title": "Paul George May Have Changed the 2019 NBA Playoffs with One Shot",
+              "category": "Sports",
+              "tags": [
+                "Sports"
+              ],
+              "banner": "/assets/bg/2.jpg"
+            },
+            "timeToRead": 6
+          }
+        ],
+        "categoryName": "Sports"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Category.tsx",
+      "id": "SitePage /categories/sports",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cc83bddb2bb66db3bc9e6201d70001cc",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /tags": {
       "jsonName": "tags-d57",
       "internalComponentName": "ComponentTags",
@@ -2501,7 +2666,8 @@
       "componentChunkName": "component---src-templates-all-tag-tsx",
       "context": {
         "tags": [
-          "Coding"
+          "Coding",
+          "Sports"
         ]
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
@@ -2512,7 +2678,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9498ba7eb1570c5f85c26578752afba7",
+        "contentDigest": "f152925780f96ba311b53e130108a116",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2595,6 +2761,89 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /tags/sports": {
+      "jsonName": "tags-sports-322",
+      "internalComponentName": "ComponentTagsSports",
+      "path": "/tags/sports",
+      "component": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Tag.tsx",
+      "componentChunkName": "component---src-templates-tag-tsx",
+      "context": {
+        "posts": [
+          {
+            "excerpt": "So Paul George very well may have had a major impact on this years NBA playoffs, at least the western side of the bracket. This impact came from a single shot - a  buzzer beater to beat the Rockets  on Tuesday. Let's ignore the fact that there was a…",
+            "html": "<p>So Paul George very well may have had a major impact on this years NBA playoffs, at least the western side of the bracket. This impact came from a single shot - a <a href=\"https://www.youtube.com/watch?v=Ethe4x7Mnfo\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">buzzer beater to beat the Rockets</a> on Tuesday. Let's ignore the fact that there was a plethora of other things that had to be right in this moment, because nobody cares about the fact that the Death Star had a single meter-wide point of failure. They only care about the amazing moment when Luke glided through a trench, disabled the automated aiming system, and then <a href=\"https://www.youtube.com/watch?v=KuKqcfO31is&#x26;t=3s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">blew the Empire's toy to pieces</a>.  So, let's just look at that sweet moment that the ball swished through that beautiful twine net. And what it could and has caused.</p>\n<p>For a little more context, let's explain where everything ended up right after that shot went through. That shot put the Thunder at 48-33 heading into the final game. They sat at 6th in the West at that point with on game to play. It put the Rockets finishing the regular season at 53-29. They sat at 3rd in the West then. If the season would have ended right then and there, the Western conference playoffs would have looked like this:</p>\n<p>- Golden State Warriors vs Los Angeles Clippers</p>\n<p>- Denver Nuggets vs San Antonio Spurs</p>\n<p>- Houston Rockets vs Oklahoma City Thunder</p>\n<p>- Portland Trail Blazers vs Utah Jazz</p>\n<p>Let's look at how each team did in their final regular season game and how the playoff picture ended up as it did.</p>\n<h2 id=\"clippers-sail-in\"><a href=\"#clippers-sail-in\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Clippers Sail in</h2>\n<p>The Clippers final day was filled with potential. With a win and a few losses from the teams around them, the Clips could have moved all the way up to 6th. They were to play the Jazz who were already locked into the 5th slot. Utah put up a fight though. The game ended in overtime with the Clippers pulling away. However, the waters didn't clear up as the teams around them ended up winning. This locked the Clippers into the 8th spot with, almost certainly, impending doom looming in the mighty Warriors.</p>\n<p>Since the Warriors game did not matter, we have our first matchup of the playoffs for the West:</p>\n<p>- Golden State Warriors vs Los Angeles Clippers</p>\n<h2 id=\"spurs-still-kickin\"><a href=\"#spurs-still-kickin\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Spurs Still Kickin'</h2>\n<p>Spurs also had a fair amount of potential with moving up with a win and a Thunder loss. They also got to sit and wait to see who the first round opponent they would end up facing (more on that in a second). Spurs faced the Mavs and were tasked with spoiling Dirk's final NBA game. They did as such fairly easily and waited for the rest of the fray to unfold to know where they landed.</p>\n<h2 id=\"nuggets-find-gold\"><a href=\"#nuggets-find-gold\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Nuggets Find Gold</h2>\n<p>After a year that saw Denver missing the playoffs, the Nuggets claw their way all the way up towards the top. The young squad, built around a skilled big man in Jokic, surprised a lot of people with the way they kept finding ways to win. Their final day had a little potential - ultimately, win and stay in the 2 slot. If they were to lose, there were a few scenarios with the most likely being slotted to 3. Winning they did though; dispatching the Timberwolves. This slotted them firmly into the 2 seed which makes the turnaround even better for them this year.</p>\n<h2 id=\"thunder-glide-in\"><a href=\"#thunder-glide-in\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Thunder Glide In</h2>\n<p>Going into the game versus the Rockets on Tuesday, it seemed like the Thunder were destined to be an 8th seed. It felt like a free fall that would end with an inevitable spanking from the Golden Boys from the Bay. Then, Paul George hit a shot that sent me into a state of incredible excitement and this plummet turned into a nice rise. I like to picture that Paul George is Tom Cruise in Top Gun pulling a fighter jet out of a dive with perfection.</p>\n<p>The Thunder still had plenty of possibilities for the final night. The seeds that they could end up in were 6-8. The good thing was that Giannis \"the Perfect Human for Basketball\" Antetokounmpo was to sit out the game. Though this was offset when it was announced that Paul George would also be missing the affair. However, the Thunder pulled it off. And this slotted them into the 6th spot, which is still mind boggling since the Thunder always struggle if it is past the All-Star Break.</p>\n<p>All seemed set until...</p>\n<h2 id=\"blazers-from-the-top-rope\"><a href=\"#blazers-from-the-top-rope\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Blazers from the Top Rope</h2>\n<p>Going into the last day, Portland seemed to be content with a 4th seed finish and a matchup with the Jazz. They played the Kings (a great season for the Kings by the way) who were already eliminated from anything meaningful by this point. The second half of this game started with the Kings up by 25 points. The Blazers also were playing only 6 players like it was an intramural game or something. At that moment, the Thunder were locked into playing the Rockets and scheming on who should try and stop Harden in the first round. But then, Anfernee Simons (a rookie no less) decided to carry the 6-man squad from Portland all the way back from the huge deficit. NBA Twitter went crazy and Portland changed the layout of the Playoffs. Portland stomped the Rockets down a slot and took the 3 seed from Houston's idle hands. This was drastic, but more on that in a second.</p>\n<h2 id=\"final-western-conference-standings\"><a href=\"#final-western-conference-standings\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Final Western Conference Standings</h2>\n<p>So after all of this craziness, here is what the playoff picture looks like for the Western Conference:</p>\n<p>- Golden State Warriors vs Los Angeles Clippers</p>\n<p>- Denver Nuggets vs San Antonio Spurs</p>\n<p>- Portland Trail Blazers vs Oklahoma City Thunder</p>\n<p>- Houston Rockets vs Utah Jazz</p>\n<p>Now let’s talk about why this scenario is pretty crazy. Prior to this season, the going thought was that the only true threat to the Warriors run at the Western Conference Title was Houston (with a few others having much lower chances). This matchup, then, should be the actual Western Conference Finals matchup in theory. That is now impossible as assuming wins for Houston and Golden State in the first round, they match up in the second round. This opens up a pathway for every other team on the opposite side - Denver, OKC, Trail Blazers, and Spurs. Further, if the Rockets or Warriors have to   expend a lot of energy to defeat this thought-to-be biggest obstacle, the western conference could have a surprising victor.</p>\n<p>There are a few other smaller interesting pieces that this opens up as well. For instance, we now have the Nuggets, a team with very little playoff experience, slotted to play the Spurs, a team that is known for being a force in the playoffs every single year. We have the Thunder playing the Blazers. The Thunder are the lower seed but also won all 4 games against the Blazers during the regular season. But with a series of games in the playoffs, some of these smaller story lines mean a little less.</p>\n<h2 id=\"paul-george-and-the-shot\"><a href=\"#paul-george-and-the-shot\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Paul George and the Shot</h2>\n<p>Let's head back to that fateful shot and recap what this set into motion.</p>\n<p>OKC vs Houston on April 9th was the Rockets final game. A win and the Rockets are guaranteed to be the 2 seed. This also hands the Thunder a loss and an all-but-certain slot as the 8 seed. Paul George winning at the buzzer potentially gives a lot of reclaimed hope to the Thunder. With a loss, the Thunder are a likely first round exit (again). With this shot and win, they can now be comfortable that the biggest foe (and rival) Golden State is far away. And look at a much more open side of the bracket with a chance to play for a Western Conference Finals title.</p>\n<p>I like to think of Paul George pushing a teetering boulder to start its roll down a mountain. Then, the next night the Blazers full-on Chuck-Norris-in-his-prime drop-kicked that sucker into a rolling boulder of Western Conference mayhem. And it seems the Rockets may be the heel that the boulder is nipping at.</p>\n<p>The NBA Playoffs look to be an exciting time this year!</p>",
+            "id": "e5a3ed44-39ca-57d4-8445-09b3343aa8e2",
+            "fields": {
+              "slug": "paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot"
+            },
+            "frontmatter": {
+              "date": "2019-04-11T22:16:03.284Z",
+              "title": "Paul George May Have Changed the 2019 NBA Playoffs with One Shot",
+              "category": "Sports",
+              "tags": [
+                "Sports"
+              ],
+              "banner": "/assets/bg/2.jpg"
+            },
+            "timeToRead": 6
+          }
+        ],
+        "tagName": "Sports"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Tag.tsx",
+      "id": "SitePage /tags/sports",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b7a208a05e34332e59325981a9ebe24",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot": {
+      "jsonName": "blog-paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot-5e5",
+      "internalComponentName": "ComponentBlogPaulGeorgeMayHaveChangedThe2019NbaPlayoffsWithOneShot",
+      "path": "/blog/paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot",
+      "component": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Post.tsx",
+      "componentChunkName": "component---src-templates-post-tsx",
+      "context": {
+        "slug": "paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot",
+        "prev": {
+          "excerpt": "Earlier this week I gave a presentation to my peers at work on utilizing  Quarkus  to create native Java applications, throw them into a container, and then utilize them in a simple (if such a thing is possible)  Kubernetes  stack with  minikube . In…",
+          "html": "<p>Earlier this week I gave a presentation to my peers at work on utilizing <a href=\"https://quarkus.io/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Quarkus</a> to create native Java applications, throw them into a container, and then utilize them in a simple (if such a thing is possible) <a href=\"https://kubernetes.io/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Kubernetes</a> stack with <a href=\"https://kubernetes.io/docs/setup/minikube/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">minikube</a>. In this talk, I also touched upon the architecture topics of microservices, serverless, and container-based applications. I found it to be a good talk in that it sparked interest and raised questions. Also, the live demo went fairly smoothly. However, there were parts that I would like to change up. So, without further ado, here are some of my thoughts on my talk.</p>\n<ul>\n<li>\n<p>First of all, it is important to know that my current place of employment is still supporting a monolithic application. This is fairly important context when thinking about the architecture topics that I brought up in this talk. In our case, it is a major leap from monolith to serverless.</p>\n<p>With this in mind, a thirty-minute talk (it blew up into closer to an hour) was not even close to sufficient to bring up the question of how to evolve our architecture. Nor was it sufficient to discuss the more practical topic of stepping stones to getting there - of which I posed Quarkus as a potentially useful tool in doing so. Right after the talk was over, I realized that my talk kind of split in two different directions - architecture (specifically, monolith to microservices to serverless) and Quarkus. For future talks on the subjects, I need to separate those concerns.</p>\n</li>\n<li>\n<p>After the talk was finished, the audience brought up topics such as tools, languages, and the means of arriving at a better architecture. These were very interesting topics that arose which spurred along a conversation for nearly 15 minutes. It seemed some were almost fixed on deciding that to get to the paradise land of the future (a sarcastic name that some colleagues throw towards anything other than a monolith) we needed to decide on the tools and, more specifically, language(s) to create our services in. I think that some even took (and still take) a defensive route, claiming that \"this tool/language is the answer\", and I don't think that attitude will change. </p>\n<p>I really enjoyed the conversation. However, the thoughts that followed were better. Many people appeared to look at our system and try to fit it into a solution. Obviously, this rarely ever works. It doesn't make sense to analyze the tools we need before we even understand what our services and needs are. During the talk, I used the metaphor of chiseling away at our monolith until we find things that easily split off. From there, we have things that easily become microservices and, potentially, smaller functions. As we arrive at each new piece that needs to be addressed, we <strong>choose and use the <em>tools of choice</em> that <em>help us solve the problem at hand</em></strong>. After all, one of the beauties of serverless and splitting our concerns is that we can focus on the task at hand and not worry about the other tasks. </p>\n</li>\n<li>\n<p>Lastly, I really liked the metaphor of chiseling away at the application that we are evolving. Not only does it make sense from the standpoint of \"I have 5 million lines of code and can't rework that easily\", but it also really helps the health of the app as we go in many ways. Each piece we break out generally becomes smaller, simpler, and more focused. Now we can look at a small piece of software and say it takes <em>x</em>, outputs <em>y</em>, and does <em>z</em>. It's apparent and immediately known if we need it and (sometimes more importantly) if we do not. It also forces us to do a few things:</p>\n<ul>\n<li>address the issue at hand and only that issue</li>\n<li>rework or completely rewrite suspect pieces of software</li>\n<li>bring testing up to date</li>\n<li>narrow the scope of pieces of software</li>\n</ul>\n</li>\n</ul>\n<p>All in all, the talk was well-received based on the conversations and topics that came from it. I plan to give the talk in the future to local user groups. When I do this, I plan to include the slides and a tutorial. The plan is to narrow the scope of the talk and delve deeper into Quarkus. I think that this will allow people to see the possibilities and to continue from there.</p>",
+          "id": "4ce6f90a-213d-5b23-bf15-031b262bb4c4",
+          "fields": {
+            "slug": "java-in-the-clouds-talk"
+          },
+          "frontmatter": {
+            "date": "2019-03-30T22:16:03.284Z",
+            "title": "Java in the Clouds Talk",
+            "category": "Coding",
+            "tags": [
+              "Coding"
+            ],
+            "banner": "/assets/bg/3.jpg"
+          },
+          "timeToRead": 3
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/Devin/Documents/GitHub/devsquared_blog/src/templates/Post.tsx",
+      "id": "SitePage /blog/paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0806ff98fe942affb48ed76babb059d7",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /blog/java-in-the-clouds-talk": {
       "jsonName": "blog-java-in-the-clouds-talk-3c3",
       "internalComponentName": "ComponentBlogJavaInTheCloudsTalk",
@@ -2621,7 +2870,24 @@
           },
           "timeToRead": 7
         },
-        "next": null
+        "next": {
+          "excerpt": "So Paul George very well may have had a major impact on this years NBA playoffs, at least the western side of the bracket. This impact came from a single shot - a  buzzer beater to beat the Rockets  on Tuesday. Let's ignore the fact that there was a…",
+          "html": "<p>So Paul George very well may have had a major impact on this years NBA playoffs, at least the western side of the bracket. This impact came from a single shot - a <a href=\"https://www.youtube.com/watch?v=Ethe4x7Mnfo\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">buzzer beater to beat the Rockets</a> on Tuesday. Let's ignore the fact that there was a plethora of other things that had to be right in this moment, because nobody cares about the fact that the Death Star had a single meter-wide point of failure. They only care about the amazing moment when Luke glided through a trench, disabled the automated aiming system, and then <a href=\"https://www.youtube.com/watch?v=KuKqcfO31is&#x26;t=3s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">blew the Empire's toy to pieces</a>.  So, let's just look at that sweet moment that the ball swished through that beautiful twine net. And what it could and has caused.</p>\n<p>For a little more context, let's explain where everything ended up right after that shot went through. That shot put the Thunder at 48-33 heading into the final game. They sat at 6th in the West at that point with on game to play. It put the Rockets finishing the regular season at 53-29. They sat at 3rd in the West then. If the season would have ended right then and there, the Western conference playoffs would have looked like this:</p>\n<p>- Golden State Warriors vs Los Angeles Clippers</p>\n<p>- Denver Nuggets vs San Antonio Spurs</p>\n<p>- Houston Rockets vs Oklahoma City Thunder</p>\n<p>- Portland Trail Blazers vs Utah Jazz</p>\n<p>Let's look at how each team did in their final regular season game and how the playoff picture ended up as it did.</p>\n<h2 id=\"clippers-sail-in\"><a href=\"#clippers-sail-in\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Clippers Sail in</h2>\n<p>The Clippers final day was filled with potential. With a win and a few losses from the teams around them, the Clips could have moved all the way up to 6th. They were to play the Jazz who were already locked into the 5th slot. Utah put up a fight though. The game ended in overtime with the Clippers pulling away. However, the waters didn't clear up as the teams around them ended up winning. This locked the Clippers into the 8th spot with, almost certainly, impending doom looming in the mighty Warriors.</p>\n<p>Since the Warriors game did not matter, we have our first matchup of the playoffs for the West:</p>\n<p>- Golden State Warriors vs Los Angeles Clippers</p>\n<h2 id=\"spurs-still-kickin\"><a href=\"#spurs-still-kickin\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Spurs Still Kickin'</h2>\n<p>Spurs also had a fair amount of potential with moving up with a win and a Thunder loss. They also got to sit and wait to see who the first round opponent they would end up facing (more on that in a second). Spurs faced the Mavs and were tasked with spoiling Dirk's final NBA game. They did as such fairly easily and waited for the rest of the fray to unfold to know where they landed.</p>\n<h2 id=\"nuggets-find-gold\"><a href=\"#nuggets-find-gold\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Nuggets Find Gold</h2>\n<p>After a year that saw Denver missing the playoffs, the Nuggets claw their way all the way up towards the top. The young squad, built around a skilled big man in Jokic, surprised a lot of people with the way they kept finding ways to win. Their final day had a little potential - ultimately, win and stay in the 2 slot. If they were to lose, there were a few scenarios with the most likely being slotted to 3. Winning they did though; dispatching the Timberwolves. This slotted them firmly into the 2 seed which makes the turnaround even better for them this year.</p>\n<h2 id=\"thunder-glide-in\"><a href=\"#thunder-glide-in\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Thunder Glide In</h2>\n<p>Going into the game versus the Rockets on Tuesday, it seemed like the Thunder were destined to be an 8th seed. It felt like a free fall that would end with an inevitable spanking from the Golden Boys from the Bay. Then, Paul George hit a shot that sent me into a state of incredible excitement and this plummet turned into a nice rise. I like to picture that Paul George is Tom Cruise in Top Gun pulling a fighter jet out of a dive with perfection.</p>\n<p>The Thunder still had plenty of possibilities for the final night. The seeds that they could end up in were 6-8. The good thing was that Giannis \"the Perfect Human for Basketball\" Antetokounmpo was to sit out the game. Though this was offset when it was announced that Paul George would also be missing the affair. However, the Thunder pulled it off. And this slotted them into the 6th spot, which is still mind boggling since the Thunder always struggle if it is past the All-Star Break.</p>\n<p>All seemed set until...</p>\n<h2 id=\"blazers-from-the-top-rope\"><a href=\"#blazers-from-the-top-rope\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Blazers from the Top Rope</h2>\n<p>Going into the last day, Portland seemed to be content with a 4th seed finish and a matchup with the Jazz. They played the Kings (a great season for the Kings by the way) who were already eliminated from anything meaningful by this point. The second half of this game started with the Kings up by 25 points. The Blazers also were playing only 6 players like it was an intramural game or something. At that moment, the Thunder were locked into playing the Rockets and scheming on who should try and stop Harden in the first round. But then, Anfernee Simons (a rookie no less) decided to carry the 6-man squad from Portland all the way back from the huge deficit. NBA Twitter went crazy and Portland changed the layout of the Playoffs. Portland stomped the Rockets down a slot and took the 3 seed from Houston's idle hands. This was drastic, but more on that in a second.</p>\n<h2 id=\"final-western-conference-standings\"><a href=\"#final-western-conference-standings\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Final Western Conference Standings</h2>\n<p>So after all of this craziness, here is what the playoff picture looks like for the Western Conference:</p>\n<p>- Golden State Warriors vs Los Angeles Clippers</p>\n<p>- Denver Nuggets vs San Antonio Spurs</p>\n<p>- Portland Trail Blazers vs Oklahoma City Thunder</p>\n<p>- Houston Rockets vs Utah Jazz</p>\n<p>Now let’s talk about why this scenario is pretty crazy. Prior to this season, the going thought was that the only true threat to the Warriors run at the Western Conference Title was Houston (with a few others having much lower chances). This matchup, then, should be the actual Western Conference Finals matchup in theory. That is now impossible as assuming wins for Houston and Golden State in the first round, they match up in the second round. This opens up a pathway for every other team on the opposite side - Denver, OKC, Trail Blazers, and Spurs. Further, if the Rockets or Warriors have to   expend a lot of energy to defeat this thought-to-be biggest obstacle, the western conference could have a surprising victor.</p>\n<p>There are a few other smaller interesting pieces that this opens up as well. For instance, we now have the Nuggets, a team with very little playoff experience, slotted to play the Spurs, a team that is known for being a force in the playoffs every single year. We have the Thunder playing the Blazers. The Thunder are the lower seed but also won all 4 games against the Blazers during the regular season. But with a series of games in the playoffs, some of these smaller story lines mean a little less.</p>\n<h2 id=\"paul-george-and-the-shot\"><a href=\"#paul-george-and-the-shot\" aria-hidden=\"true\" class=\"anchor\"><svg aria-hidden=\"true\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Paul George and the Shot</h2>\n<p>Let's head back to that fateful shot and recap what this set into motion.</p>\n<p>OKC vs Houston on April 9th was the Rockets final game. A win and the Rockets are guaranteed to be the 2 seed. This also hands the Thunder a loss and an all-but-certain slot as the 8 seed. Paul George winning at the buzzer potentially gives a lot of reclaimed hope to the Thunder. With a loss, the Thunder are a likely first round exit (again). With this shot and win, they can now be comfortable that the biggest foe (and rival) Golden State is far away. And look at a much more open side of the bracket with a chance to play for a Western Conference Finals title.</p>\n<p>I like to think of Paul George pushing a teetering boulder to start its roll down a mountain. Then, the next night the Blazers full-on Chuck-Norris-in-his-prime drop-kicked that sucker into a rolling boulder of Western Conference mayhem. And it seems the Rockets may be the heel that the boulder is nipping at.</p>\n<p>The NBA Playoffs look to be an exciting time this year!</p>",
+          "id": "e5a3ed44-39ca-57d4-8445-09b3343aa8e2",
+          "fields": {
+            "slug": "paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot"
+          },
+          "frontmatter": {
+            "date": "2019-04-11T22:16:03.284Z",
+            "title": "Paul George May Have Changed the 2019 NBA Playoffs with One Shot",
+            "category": "Sports",
+            "tags": [
+              "Sports"
+            ],
+            "banner": "/assets/bg/2.jpg"
+          },
+          "timeToRead": 6
+        }
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
@@ -2631,7 +2897,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "70993c687f53087948877d83efb46643",
+        "contentDigest": "992b4656615582ec72af1677e47bd2dd",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2818,12 +3084,15 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b43fe9c22c826b831647d7997188e68c"
+    "PLUGINS_HASH": "a3ac2abeb62f59b4deeb3d14fc7d7546"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-tsx"
+      ],
+      "e5a3ed44-39ca-57d4-8445-09b3343aa8e2": [
+        "/blog/paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot"
       ],
       "4ce6f90a-213d-5b23-bf15-031b262bb4c4": [
         "/blog/java-in-the-clouds-talk"
@@ -2844,19 +3113,22 @@
   },
   "jsonDataPaths": {
     "sq--src-components-layout-tsx": 1536950682,
-    "index": "281/path---index-6a9-08TT49OeT5SyP6fxm4rU5GnuPis",
-    "blog-java-in-the-clouds-talk-3c3": "349/path---blog-java-in-the-clouds-talk-3-c-3-e00-xLZE6LVv5FbQLD2OFjZdQaPnI1s",
-    "blog-c06": "110/path---blog-c-06-a65-gM2nlH7sGtBhPnkjCVXZWYQIVs",
+    "blog-c06": "772/path---blog-c-06-a65-dhRFwH65Dyo2iqkweDNno92XE",
+    "index": "72/path---index-6a9-M29NRNEDpvbpd9RYxnQhik7JeWU",
+    "blog-paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot-5e5": "706/path---blog-paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot-5-e-5-285-Go3P1Xjq5qIP0nSVKv7m8TKA5Q",
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "categories-b0b": "385/path---categories-b-0-b-a23-g2eWHIilTC1JeoUx1qqZIvdd518",
+    "blog-java-in-the-clouds-talk-3c3": "565/path---blog-java-in-the-clouds-talk-3-c-3-e00-7Isygc9ti8W9vr52lL7NXAAKAw",
     "blog-my-first-dev-conference-2019-dev-nexus-88b": "938/path---blog-my-first-dev-conference-2019-dev-nexus-88-b-1a1-SdPCaSctkNbQOuretDal5uWE4",
     "blog-hello-world-09a": "718/path---blog-hello-world-09-a-1a9-BEDcVC7oNqW8TiXDUYqfpiWqXag",
-    "tags-d57": "321/path---tags-d-57-537-awcZWAxHMyVQF6GeRWy3CHtTWI",
     "categories-coding-902": "934/path---categories-coding-902-d7e-GCiUBXaOCVGUADxio4mtYC86WJ8",
+    "categories-b0b": "979/path---categories-b-0-b-a23-nDKgJtCsIsLhBrP5das8fPMeA",
     "tags-coding-9b0": "877/path---tags-coding-9-b-0-4be-q5vPDIXhplqcyUAY6qVd1zpifig",
-    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "categories-sports-660": "549/path---categories-sports-660-9e0-zVVVX1RWz5wH2dqXbPfgSdIEGHw",
+    "tags-d57": "68/path---tags-d-57-537-AQsmaS5MPqhzuulxvc7WUY2nR8",
+    "tags-sports-322": "425/path---tags-sports-322-d0e-fRHuFrQyCCDKKooDjhlhDVO38Y",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-offline/app-shell.js": {

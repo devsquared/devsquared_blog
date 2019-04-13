@@ -12,7 +12,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-plugin-google-tagmanager/gatsby-ssr'),
-      options: {"plugins":[],"id":"GTM-MVP42QK","includeInDevelopment":false},
+      options: {"plugins":[],"id":"GTM-NK7BMN2","includeInDevelopment":false},
     },{
       plugin: require('/Users/Devin/Documents/GitHub/devsquared_blog/node_modules/gatsby-remark-autolink-headers/gatsby-ssr'),
       options: {"plugins":[]},

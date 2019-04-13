@@ -35,6 +35,11 @@
         "path": "/blog/my-first-dev-conference-2019-dev-nexus"
     },
     {
+        "componentChunkName": "component---src-templates-post-tsx",
+        "jsonName": "blog-paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot-5e5",
+        "path": "/blog/paul-george-may-have-changed-the-2019-nba-playoffs-with-one-shot"
+    },
+    {
         "componentChunkName": "component---src-templates-all-category-tsx",
         "jsonName": "categories-b0b",
         "path": "/categories"
@@ -43,6 +48,11 @@
         "componentChunkName": "component---src-templates-category-tsx",
         "jsonName": "categories-coding-902",
         "path": "/categories/coding"
+    },
+    {
+        "componentChunkName": "component---src-templates-category-tsx",
+        "jsonName": "categories-sports-660",
+        "path": "/categories/sports"
     },
     {
         "componentChunkName": "component---src-pages-contact-tsx",
@@ -63,5 +73,10 @@
         "componentChunkName": "component---src-templates-tag-tsx",
         "jsonName": "tags-coding-9b0",
         "path": "/tags/coding"
+    },
+    {
+        "componentChunkName": "component---src-templates-tag-tsx",
+        "jsonName": "tags-sports-322",
+        "path": "/tags/sports"
     }
 ]
